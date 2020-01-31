@@ -1,0 +1,718 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-01-31T13:37:09.364+01:00
+  initializedAtString: 2020-01-31T13:23:43.677+01:00
+  log:
+  - commitID: 66599ddec1021925c3a1814f512671c6424dd044
+    mergeA: 
+    mergeB: 
+    authorName: albernnV
+    authorEmail: 36505023+albernnV@users.noreply.github.com
+    commitEmail: 36505023+albernnV@users.noreply.github.com
+    commitName: albernnV
+    summary: Testscenes
+    description: First push
+    timeString: 2020-01-31T13:33:14.000+01:00
+    commitTimeString: 2020-01-31T13:33:14.000+01:00
+    changes:
+    - path: Assets\Testcenes\AugmentedImage.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\AugmentedImage.meta
+      projectPath: Assets\Testcenes\AugmentedImage.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\AugmentedImage\Dog.jpg
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\AugmentedImage\Dog.jpg
+      projectPath: Assets\Testcenes\AugmentedImage\Dog.jpg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\AugmentedImage\Dog.jpg.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\AugmentedImage\Dog.jpg.meta
+      projectPath: Assets\Testcenes\AugmentedImage\Dog.jpg.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\AugmentedImage\New Database 1.asset
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\AugmentedImage\New Database
+        1.asset
+      projectPath: Assets\Testcenes\AugmentedImage\New Database 1.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\AugmentedImage\New Database 1.asset.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\AugmentedImage\New Database
+        1.asset.meta
+      projectPath: Assets\Testcenes\AugmentedImage\New Database 1.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\AugmentedImage\New Database.asset
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\AugmentedImage\New Database.asset
+      projectPath: Assets\Testcenes\AugmentedImage\New Database.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\AugmentedImage\New Database.asset.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\AugmentedImage\New Database.asset.meta
+      projectPath: Assets\Testcenes\AugmentedImage\New Database.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\AugmentedImage\QR.asset
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\AugmentedImage\QR.asset
+      projectPath: Assets\Testcenes\AugmentedImage\QR.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\AugmentedImage\QR.asset.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\AugmentedImage\QR.asset.meta
+      projectPath: Assets\Testcenes\AugmentedImage\QR.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\AugmentedImage\TicTacoToeQR.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\AugmentedImage\TicTacoToeQR.png
+      projectPath: Assets\Testcenes\AugmentedImage\TicTacoToeQR.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\AugmentedImage\TicTacoToeQR.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\AugmentedImage\TicTacoToeQR.png.meta
+      projectPath: Assets\Testcenes\AugmentedImage\TicTacoToeQR.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\AugmentedImage\earth.jpg
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\AugmentedImage\earth.jpg
+      projectPath: Assets\Testcenes\AugmentedImage\earth.jpg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\AugmentedImage\earth.jpg.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\AugmentedImage\earth.jpg.meta
+      projectPath: Assets\Testcenes\AugmentedImage\earth.jpg.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Materials.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Materials.meta
+      projectPath: Assets\Testcenes\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Materials\New Material 1.mat
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Materials\New Material
+        1.mat
+      projectPath: Assets\Testcenes\Materials\New Material 1.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Materials\New Material 1.mat.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Materials\New Material
+        1.mat.meta
+      projectPath: Assets\Testcenes\Materials\New Material 1.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Materials\New Material 2.mat
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Materials\New Material
+        2.mat
+      projectPath: Assets\Testcenes\Materials\New Material 2.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Materials\New Material 2.mat.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Materials\New Material
+        2.mat.meta
+      projectPath: Assets\Testcenes\Materials\New Material 2.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Materials\New Material.mat
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Materials\New Material.mat
+      projectPath: Assets\Testcenes\Materials\New Material.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Materials\New Material.mat.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Materials\New Material.mat.meta
+      projectPath: Assets\Testcenes\Materials\New Material.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Prefabs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Prefabs.meta
+      projectPath: Assets\Testcenes\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Prefabs\MobileSingleStickControl.prefab
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Prefabs\MobileSingleStickControl.prefab
+      projectPath: Assets\Testcenes\Prefabs\MobileSingleStickControl.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Prefabs\MobileSingleStickControl.prefab.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Prefabs\MobileSingleStickControl.prefab.meta
+      projectPath: Assets\Testcenes\Prefabs\MobileSingleStickControl.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Prefabs\TicTacToe - kopia - kopia.prefab
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Prefabs\TicTacToe -
+        kopia - kopia.prefab
+      projectPath: Assets\Testcenes\Prefabs\TicTacToe - kopia - kopia.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Prefabs\TicTacToe - kopia - kopia.prefab.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Prefabs\TicTacToe -
+        kopia - kopia.prefab.meta
+      projectPath: Assets\Testcenes\Prefabs\TicTacToe - kopia - kopia.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Prefabs\TicTacToe - kopia.prefab
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Prefabs\TicTacToe -
+        kopia.prefab
+      projectPath: Assets\Testcenes\Prefabs\TicTacToe - kopia.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Prefabs\TicTacToe - kopia.prefab.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Prefabs\TicTacToe -
+        kopia.prefab.meta
+      projectPath: Assets\Testcenes\Prefabs\TicTacToe - kopia.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\SampleScene.unity
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\SampleScene.unity
+      projectPath: Assets\Testcenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\SampleScene.unity.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\SampleScene.unity.meta
+      projectPath: Assets\Testcenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Scripts.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Scripts.meta
+      projectPath: Assets\Testcenes\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Scripts\ARController.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Scripts\ARController.cs
+      projectPath: Assets\Testcenes\Scripts\ARController.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Scripts\ARController.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Scripts\ARController.cs.meta
+      projectPath: Assets\Testcenes\Scripts\ARController.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Scripts\ARVisualizer.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Scripts\ARVisualizer.cs
+      projectPath: Assets\Testcenes\Scripts\ARVisualizer.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Scripts\ARVisualizer.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Scripts\ARVisualizer.cs.meta
+      projectPath: Assets\Testcenes\Scripts\ARVisualizer.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Scripts\moveObject.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Scripts\moveObject.cs
+      projectPath: Assets\Testcenes\Scripts\moveObject.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Scripts\moveObject.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Scripts\moveObject.cs.meta
+      projectPath: Assets\Testcenes\Scripts\moveObject.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets.meta
+      projectPath: Assets\Testcenes\Standard Assets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\CarTiltControls.prefab
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\CarTiltControls.prefab
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\CarTiltControls.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\CarTiltControls.prefab.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\CarTiltControls.prefab.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\CarTiltControls.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\DualTouchControls.prefab
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\DualTouchControls.prefab
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\DualTouchControls.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\DualTouchControls.prefab.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\DualTouchControls.prefab.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\DualTouchControls.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\MobileTiltControlRig.prefab
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\MobileTiltControlRig.prefab
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\MobileTiltControlRig.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\MobileTiltControlRig.prefab.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\MobileTiltControlRig.prefab.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Prefabs\MobileTiltControlRig.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorOverSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorOverSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorOverSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorOverSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorOverSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorOverSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorUpSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorUpSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorUpSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorUpSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorUpSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorUpSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowOverSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowOverSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowOverSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowOverSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowOverSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowOverSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowUpSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowUpSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowUpSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowUpSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowUpSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowUpSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeOverSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeOverSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeOverSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeOverSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeOverSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeOverSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeUpSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeUpSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeUpSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeUpSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeUpSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeUpSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonCameraCycleUpSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonCameraCycleUpSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonCameraCycleUpSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonCameraCycleUpSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonCameraCycleUpSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonCameraCycleUpSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonResetSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonResetSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonResetSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonResetSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonResetSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonResetSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonSpacebarSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonSpacebarSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonSpacebarSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonSpacebarSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonSpacebarSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonSpacebarSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickOverSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickOverSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickOverSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickOverSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickOverSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickOverSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickUpSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickUpSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickUpSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickUpSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickUpSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickUpSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleFullUpSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleFullUpSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleFullUpSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleFullUpSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleFullUpSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleFullUpSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleSlowUpSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleSlowUpSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleSlowUpSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleSlowUpSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleSlowUpSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleSlowUpSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\SliderBackgroundSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\SliderBackgroundSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\SliderBackgroundSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\SliderBackgroundSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\SliderBackgroundSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\SliderBackgroundSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\SliderHandleSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\SliderHandleSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\SliderHandleSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\SliderHandleSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\SliderHandleSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\SliderHandleSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\TouchpadSprite.png
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\TouchpadSprite.png
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\TouchpadSprite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\TouchpadSprite.png.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\TouchpadSprite.png.meta
+      projectPath: Assets\Testcenes\Standard Assets\CrossPlatformInput\Sprites\TouchpadSprite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\Editor.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\Editor.meta
+      projectPath: Assets\Testcenes\Standard Assets\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\Editor\CrossPlatformInput.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\Editor\CrossPlatformInput.meta
+      projectPath: Assets\Testcenes\Standard Assets\Editor\CrossPlatformInput.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs
+      projectPath: Assets\Testcenes\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs.meta
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\Testcenes\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs.meta
+      projectPath: Assets\Testcenes\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 7129a9e39a4716f43ef20437f738e072fa3b7e34
+    mergeA: 
+    mergeB: 
+    authorName: albernnV
+    authorEmail: 36505023+albernnV@users.noreply.github.com
+    commitEmail: 36505023+albernnV@users.noreply.github.com
+    commitName: albernnV
+    summary: Initial commit
+    description: 
+    timeString: 2020-01-31T13:23:42.000+01:00
+    commitTimeString: 2020-01-31T13:23:42.000+01:00
+    changes:
+    - path: .gitattributes
+      fullPath: D:\Unity\Projects\TicTacToee\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: D:\Unity\Projects\TicTacToee\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\.gitignore
+      fullPath: D:\Unity\Projects\TicTacToee\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0

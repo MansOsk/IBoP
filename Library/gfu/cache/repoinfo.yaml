@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-01-31T13:34:04.997+01:00
-  initializedAtString: 2020-01-31T13:23:43.483+01:00
+  lastUpdatedAtString: 2020-02-03T11:44:20.406+01:00
+  initializedAtString: 2020-02-03T11:44:20.406+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/MansOsk/IBoP.git
@@ -25,13 +25,13 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: 
+    tracking: origin/master
   currentConfigBranch:
     name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/MansOsk/IBoP.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/MansOsk/IBoP.git

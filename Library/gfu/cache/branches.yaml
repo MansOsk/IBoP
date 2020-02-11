@@ -13,17 +13,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-01-31T13:34:04.987+01:00
-  initializedAtString: 2020-01-31T13:26:29.408+01:00
+  lastUpdatedAtString: 2020-02-11T15:32:50.304+01:00
+  initializedAtString: 2020-02-11T15:32:50.282+01:00
   localBranches:
-  - name: Albernn
-    tracking: origin/Albernn
+  - name: Better
+    tracking: origin/Better
   - name: master
-    tracking: 
+    tracking: origin/master
   remoteBranches:
-  - name: origin/Albernn
+  - name: origin/Better
+    tracking: '[None]'
+  - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/InputFixing
     tracking: '[None]'
   - name: origin/master
+    tracking: '[None]'
+  - name: origin/QrFix
+    tracking: '[None]'
+  - name: origin/rules
     tracking: '[None]'
   remotes:
   - name: origin
@@ -35,34 +43,58 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - Albernn
+    - Better
     - master
     values:
-    - name: Albernn
+    - name: Better
       remote:
         name: origin
         url: https://github.com/MansOsk/IBoP.git
-      trackingBranch: Albernn
+      trackingBranch: Better
     - name: master
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/MansOsk/IBoP.git
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - Albernn
+      - Better
+      - HEAD
+      - InputFixing
       - master
+      - QrFix
+      - rules
     subKeyValues:
     - Values:
-      - name: Albernn
+      - name: Better
+        remote:
+          name: origin
+          url: https://github.com/MansOsk/IBoP.git
+        trackingBranch: 
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/MansOsk/IBoP.git
+        trackingBranch: 
+      - name: InputFixing
         remote:
           name: origin
           url: https://github.com/MansOsk/IBoP.git
         trackingBranch: 
       - name: master
+        remote:
+          name: origin
+          url: https://github.com/MansOsk/IBoP.git
+        trackingBranch: 
+      - name: QrFix
+        remote:
+          name: origin
+          url: https://github.com/MansOsk/IBoP.git
+        trackingBranch: 
+      - name: rules
         remote:
           name: origin
           url: https://github.com/MansOsk/IBoP.git

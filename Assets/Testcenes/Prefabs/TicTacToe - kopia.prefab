@@ -117,6 +117,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82dea998d315ca64f9f36d8d4fc4c51a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snapSpeed: 16
+  offset: 0
 --- !u!1 &467924583060883911
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,6 +236,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82dea998d315ca64f9f36d8d4fc4c51a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snapSpeed: 16
+  offset: 0
 --- !u!1 &600679623634009048
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,6 +446,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82dea998d315ca64f9f36d8d4fc4c51a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snapSpeed: 16
+  offset: 0
 --- !u!1 &5141021634369398737
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,6 +565,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82dea998d315ca64f9f36d8d4fc4c51a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snapSpeed: 16
+  offset: 0
 --- !u!1 &7299748945451056110
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,6 +577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7299748945451056104}
   - component: {fileID: 114160000565076024}
+  - component: {fileID: 114268044256470704}
   m_Layer: 0
   m_Name: TicTacToe - kopia
   m_TagString: Untagged
@@ -610,6 +619,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 7299748945451056110}
+--- !u!114 &114268044256470704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7299748945451056110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6b2366913498643be3b8ae1e06bd4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7559556874071014885
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,6 +934,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82dea998d315ca64f9f36d8d4fc4c51a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snapSpeed: 16
+  offset: 0
 --- !u!1 &8000712005957688399
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,6 +1144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82dea998d315ca64f9f36d8d4fc4c51a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snapSpeed: 16
+  offset: 0
 --- !u!1 &9216994034020816678
 GameObject:
   m_ObjectHideFlags: 0

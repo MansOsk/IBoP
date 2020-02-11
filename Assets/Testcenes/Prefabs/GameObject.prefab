@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1479454990000659455}
   m_Layer: 0
   m_Name: Grid
-  m_TagString: Untagged
+  m_TagString: World
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454990000659454}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 29.229591, z: 0}
+  m_LocalPosition: {x: 0, y: -0.1, z: 0}
   m_LocalScale: {x: 2, y: 0.19999999, z: 2}
   m_Children:
   - {fileID: 1479454990194039513}
@@ -107,11 +107,10 @@ GameObject:
   - component: {fileID: 1479454990145058378}
   - component: {fileID: 1479454990145058377}
   - component: {fileID: 1479454990145058376}
-  - component: {fileID: 1479454990145058375}
   - component: {fileID: 1479454990145058374}
   m_Layer: 0
   m_Name: Sphere1
-  m_TagString: Untagged
+  m_TagString: DragControlled
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,7 +123,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454990145058373}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.67, y: 29.429592, z: 0.69}
+  m_LocalPosition: {x: -0.67, y: 0.1, z: 0.69}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -188,18 +187,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1.15
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1479454990145058375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454990145058373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceada30821473dd43a49e99485805725, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1479454990145058374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,6 +200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapSpeed: 1.5
+  offset: 0
 --- !u!1 &1479454990194039512
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,12 +394,11 @@ GameObject:
   - component: {fileID: 1479454990274546840}
   - component: {fileID: 1479454990274546839}
   - component: {fileID: 1479454990274546838}
-  - component: {fileID: 1479454990274546837}
   - component: {fileID: 1479454990274546836}
   - component: {fileID: 1479454990274546835}
   m_Layer: 0
   m_Name: Cube1
-  m_TagString: Untagged
+  m_TagString: DragControlled
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -424,7 +411,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454990274546834}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.76, y: 29.429592, z: -0.63}
+  m_LocalPosition: {x: -0.76, y: 0.1, z: -0.63}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -475,18 +462,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1479454990274546837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454990274546834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceada30821473dd43a49e99485805725, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &1479454990274546836
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -513,6 +488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapSpeed: 1.5
+  offset: 0
 --- !u!1 &1479454990453666948
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,11 +501,10 @@ GameObject:
   - component: {fileID: 1479454990453666953}
   - component: {fileID: 1479454990453666952}
   - component: {fileID: 1479454990453666951}
-  - component: {fileID: 1479454990453666950}
   - component: {fileID: 1479454990453666949}
   m_Layer: 0
   m_Name: Sphere3
-  m_TagString: Untagged
+  m_TagString: DragControlled
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -542,7 +517,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454990453666948}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.679, y: 29.429592, z: 0.65}
+  m_LocalPosition: {x: 0.67, y: 0.1, z: 0.65}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -606,18 +581,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1.15
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1479454990453666950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454990453666948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceada30821473dd43a49e99485805725, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1479454990453666949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -631,6 +594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapSpeed: 1.5
+  offset: 0
 --- !u!1 &1479454990483407777
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,11 +607,10 @@ GameObject:
   - component: {fileID: 1479454990483407782}
   - component: {fileID: 1479454990483407781}
   - component: {fileID: 1479454990483407780}
-  - component: {fileID: 1479454990483407779}
   - component: {fileID: 1479454990483407778}
   m_Layer: 0
   m_Name: Cube3
-  m_TagString: Untagged
+  m_TagString: DragControlled
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -660,7 +623,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454990483407777}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.839, y: 29.429592, z: -0.66}
+  m_LocalPosition: {x: 0.548, y: 0.1, z: -0.587}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -724,18 +687,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1.15
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1479454990483407779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454990483407777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceada30821473dd43a49e99485805725, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1479454990483407778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -749,6 +700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapSpeed: 1.5
+  offset: 0
 --- !u!1 &1479454991086242291
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,7 +710,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1479454991086242292}
-  - component: {fileID: 406767774044754851}
+  - component: {fileID: 7294516297358155556}
+  - component: {fileID: 2899061817135482990}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -775,7 +728,7 @@ Transform:
   m_GameObject: {fileID: 1479454991086242291}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -29.229591, z: -0.0000036850508}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
   - {fileID: 1479454990000659426}
   - {fileID: 1479454990274546840}
@@ -787,7 +740,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &406767774044754851
+--- !u!114 &7294516297358155556
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -800,6 +753,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 1479454991086242291}
+--- !u!114 &2899061817135482990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479454991086242291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceada30821473dd43a49e99485805725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1479454991101591201
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,12 +867,11 @@ GameObject:
   - component: {fileID: 1479454991210851129}
   - component: {fileID: 1479454991210851128}
   - component: {fileID: 1479454991210851127}
-  - component: {fileID: 1479454991210851126}
   - component: {fileID: 1479454991210851125}
   - component: {fileID: 1479454991210851124}
   m_Layer: 0
   m_Name: Cube2
-  m_TagString: Untagged
+  m_TagString: DragControlled
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -920,7 +884,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991210851123}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 29.429592, z: -0.6599963}
+  m_LocalPosition: {x: 0, y: 0.1, z: -0.6599963}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -971,18 +935,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1479454991210851126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454991210851123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceada30821473dd43a49e99485805725, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &1479454991210851125
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1009,6 +961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapSpeed: 1.5
+  offset: 0
 --- !u!1 &1479454991231508647
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,11 +1065,10 @@ GameObject:
   - component: {fileID: 1479454991544329885}
   - component: {fileID: 1479454991544329884}
   - component: {fileID: 1479454991544329883}
-  - component: {fileID: 1479454991544329882}
   - component: {fileID: 1479454991544329881}
   m_Layer: 0
   m_Name: Sphere2
-  m_TagString: Untagged
+  m_TagString: DragControlled
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1129,7 +1081,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991544329880}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 29.429592, z: 0.66000366}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0.66000366}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -1193,18 +1145,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1.15
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1479454991544329882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454991544329880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceada30821473dd43a49e99485805725, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1479454991544329881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1218,3 +1158,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snapSpeed: 1.5
+  offset: 0

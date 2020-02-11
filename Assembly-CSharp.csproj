@@ -254,10 +254,12 @@
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPSession.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPSessionStatus.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPTrackingState.cs" />
-    <Compile Include="Assets\snap.cs" />
+    <Compile Include="Assets\PopUp.cs" />
     <Compile Include="Assets\Testcenes\Scripts\ARController.cs" />
     <Compile Include="Assets\Testcenes\Scripts\ARVisualizer.cs" />
     <Compile Include="Assets\Testcenes\Scripts\moveObject.cs" />
+    <Compile Include="Assets\Testcenes\Scripts\Snap.cs" />
+    <Compile Include="Assets\Testcenes\Scripts\SnapObjectList.cs" />
     <Compile Include="Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
@@ -269,6 +271,7 @@
     <Compile Include="Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\Testcenes\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\TicTacToeRules.cs" />
     <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\PlaneGrid.shader" />
     <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\MobileDiffuseWithLightEstimation.shader" />
     <None Include="Assets\GoogleARCore\SDK\Materials\ARBackground.shader" />

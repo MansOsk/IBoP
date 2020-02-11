@@ -13,84 +13,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-02-11T15:32:37.140+01:00
+  lastUpdatedAtString: 2020-02-11T16:27:05.180+01:00
   initializedAtString: 2020-02-11T12:43:37.184+01:00
   entries:
-  - path: .collabignore
-    fullPath: C:\Users\John Walker\IBoP\.collabignore
-    projectPath: .collabignore
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assembly-CSharp.csproj
     fullPath: C:\Users\John Walker\IBoP\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\GoogleARCore\SDK\Materials\ARBackground.mat
-    fullPath: C:\Users\John Walker\IBoP\Assets\GoogleARCore\SDK\Materials\ARBackground.mat
-    projectPath: Assets\GoogleARCore\SDK\Materials\ARBackground.mat
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\PopUp.cs
-    fullPath: C:\Users\John Walker\IBoP\Assets\PopUp.cs
-    projectPath: Assets\PopUp.cs
+  - path: Assets\Testcenes\Images.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Images.meta
+    projectPath: Assets\Testcenes\Images.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PopUp.cs.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\PopUp.cs.meta
-    projectPath: Assets\PopUp.cs.meta
+  - path: Assets\Testcenes\Images\TTT2.PNG
+    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Images\TTT2.PNG
+    projectPath: Assets\Testcenes\Images\TTT2.PNG
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Snap.cs
-    fullPath: C:\Users\John Walker\IBoP\Assets\Snap.cs
-    projectPath: Assets\Snap.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Snap.cs.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Snap.cs.meta
-    projectPath: Assets\Snap.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Testcenes - Copy.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes - Copy.meta
-    projectPath: Assets\Testcenes - Copy.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes - Copy\Scripts.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes - Copy\Scripts.meta
-    projectPath: Assets\Testcenes - Copy\Scripts.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes - Copy\Standard Assets.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes - Copy\Standard Assets.meta
-    projectPath: Assets\Testcenes - Copy\Standard Assets.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes - Copy\Standard Assets\CrossPlatformInput.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes - Copy\Standard Assets\CrossPlatformInput.meta
-    projectPath: Assets\Testcenes - Copy\Standard Assets\CrossPlatformInput.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes - Copy\Standard Assets\CrossPlatformInput\Scripts.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes - Copy\Standard Assets\CrossPlatformInput\Scripts.meta
-    projectPath: Assets\Testcenes - Copy\Standard Assets\CrossPlatformInput\Scripts.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes - Copy\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes - Copy\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
-    projectPath: Assets\Testcenes - Copy\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
+  - path: Assets\Testcenes\Images\TTT2.PNG.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Images\TTT2.PNG.meta
+    projectPath: Assets\Testcenes\Images\TTT2.PNG.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -100,70 +46,63 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Testcenes\Prefabs\TicTacToe - kopia - kopia.prefab
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\TicTacToe - kopia
-      - kopia.prefab
-    projectPath: Assets\Testcenes\Prefabs\TicTacToe - kopia - kopia.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Testcenes\Prefabs\TicTacToe - kopia.prefab
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\TicTacToe - kopia.prefab
-    projectPath: Assets\Testcenes\Prefabs\TicTacToe - kopia.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Testcenes\SampleScene.unity
     fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\SampleScene.unity
     projectPath: Assets\Testcenes\SampleScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Testcenes\Scripts\moveObject.cs
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\moveObject.cs
-    projectPath: Assets\Testcenes\Scripts\moveObject.cs
+  - path: Assets\Testcenes\SampleScene.unity.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\SampleScene.unity.meta
+    projectPath: Assets\Testcenes\SampleScene.unity.meta
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Testcenes\Scripts\Snap.cs
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\Snap.cs
-    projectPath: Assets\Testcenes\Scripts\Snap.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes\Scripts\Snap.cs.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\Snap.cs.meta
-    projectPath: Assets\Testcenes\Scripts\Snap.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes\Scripts\SnapObjectList.cs
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\SnapObjectList.cs
-    projectPath: Assets\Testcenes\Scripts\SnapObjectList.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes\Scripts\SnapObjectList.cs.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\SnapObjectList.cs.meta
-    projectPath: Assets\Testcenes\Scripts\SnapObjectList.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assets\Testcenes\TestScene.unity
     fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\TestScene.unity
     projectPath: Assets\Testcenes\TestScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\TicTacToeRules.cs
-    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToeRules.cs
-    projectPath: Assets\TicTacToeRules.cs
+  - path: Assets\TicTacToe.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe.meta
+    projectPath: Assets\TicTacToe.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\TicTacToeRules.cs.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToeRules.cs.meta
-    projectPath: Assets\TicTacToeRules.cs.meta
+  - path: Assets\TicTacToe\Scenes.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe\Scenes.meta
+    projectPath: Assets\TicTacToe\Scenes.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TicTacToe\Scenes\Menu.unity
+    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe\Scenes\Menu.unity
+    projectPath: Assets\TicTacToe\Scenes\Menu.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TicTacToe\Scenes\Menu.unity.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe\Scenes\Menu.unity.meta
+    projectPath: Assets\TicTacToe\Scenes\Menu.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TicTacToe\Scripts.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe\Scripts.meta
+    projectPath: Assets\TicTacToe\Scripts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TicTacToe\Scripts\LoadScene.cs
+    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe\Scripts\LoadScene.cs
+    projectPath: Assets\TicTacToe\Scripts\LoadScene.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TicTacToe\Scripts\LoadScene.cs.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe\Scripts\LoadScene.cs.meta
+    projectPath: Assets\TicTacToe\Scripts\LoadScene.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -173,33 +112,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\CurrentLayout.dwlt
-    fullPath: C:\Users\John Walker\IBoP\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\EditorUserBuildSettings.asset
     fullPath: C:\Users\John Walker\IBoP\Library\EditorUserBuildSettings.asset
     projectPath: Library\EditorUserBuildSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -215,27 +136,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\John Walker\IBoP\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\LastBuild.buildreport
     fullPath: C:\Users\John Walker\IBoP\Library\LastBuild.buildreport
     projectPath: Library\LastBuild.buildreport
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\John Walker\IBoP\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -260,12 +163,6 @@ MonoBehaviour:
   - path: Library\metadata\38\387c4e6e1a8541a45a975c659e8c31cc.info
     fullPath: C:\Users\John Walker\IBoP\Library\metadata\38\387c4e6e1a8541a45a975c659e8c31cc.info
     projectPath: Library\metadata\38\387c4e6e1a8541a45a975c659e8c31cc.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\ce\ceada30821473dd43a49e99485805725
-    fullPath: C:\Users\John Walker\IBoP\Library\metadata\ce\ceada30821473dd43a49e99485805725
-    projectPath: Library\metadata\ce\ceada30821473dd43a49e99485805725
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -326,12 +223,6 @@ MonoBehaviour:
   - path: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
     fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
     projectPath: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ProjectSettings.asset
-    fullPath: C:\Users\John Walker\IBoP\Library\ProjectSettings.asset
-    projectPath: Library\ProjectSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -413,12 +304,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\Hierarchy\28c902-2b772221045280041b.json
-    fullPath: C:\Users\John Walker\IBoP\Library\StateCache\Hierarchy\28c902-2b772221045280041b.json
-    projectPath: Library\StateCache\Hierarchy\28c902-2b772221045280041b.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\StateCache\Hierarchy\28c902-mainStage.json
     fullPath: C:\Users\John Walker\IBoP\Library\StateCache\Hierarchy\28c902-mainStage.json
     projectPath: Library\StateCache\Hierarchy\28c902-mainStage.json
@@ -431,21 +316,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\John Walker\IBoP\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
     fullPath: C:\Users\John Walker\IBoP\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
     projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\John Walker\IBoP\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -458,12 +331,6 @@ MonoBehaviour:
   - path: ProjectSettings\ProjectSettings.asset
     fullPath: C:\Users\John Walker\IBoP\ProjectSettings\ProjectSettings.asset
     projectPath: ProjectSettings\ProjectSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\TagManager.asset
-    fullPath: C:\Users\John Walker\IBoP\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

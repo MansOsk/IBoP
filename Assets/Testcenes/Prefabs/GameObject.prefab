@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454990000659454}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.1, z: 0}
+  m_LocalPosition: {x: 0, y: -0.2, z: 0}
   m_LocalScale: {x: 2, y: 0.19999999, z: 2}
   m_Children:
   - {fileID: 1479454990194039513}
@@ -123,7 +123,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454990145058373}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.67, y: 0.1, z: 0.69}
+  m_LocalPosition: {x: -0.65, y: 0.1, z: 1.42}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -199,8 +199,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82dea998d315ca64f9f36d8d4fc4c51a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SnapObjectList: {fileID: 0}
+  SnapTo: 1
+  size: 0.6666667
   snapSpeed: 1.5
   offset: 0
+  X: 0
+  Y: 0
+  Z: 0
 --- !u!1 &1479454990194039512
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,7 +417,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454990274546834}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.76, y: 0.1, z: -0.63}
+  m_LocalPosition: {x: -0.76, y: 0.1, z: -1.48}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -487,8 +493,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82dea998d315ca64f9f36d8d4fc4c51a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SnapObjectList: {fileID: 0}
+  SnapTo: 1
+  size: 0.6666667
   snapSpeed: 1.5
   offset: 0
+  X: 0
+  Y: 0
+  Z: 0
 --- !u!1 &1479454990453666948
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,7 +529,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454990453666948}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.67, y: 0.1, z: 0.65}
+  m_LocalPosition: {x: 0.67, y: 0.1, z: 1.45}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -593,8 +605,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82dea998d315ca64f9f36d8d4fc4c51a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SnapObjectList: {fileID: 0}
+  SnapTo: 1
+  size: 0.6666667
   snapSpeed: 1.5
   offset: 0
+  X: 0
+  Y: 0
+  Z: 0
 --- !u!1 &1479454990483407777
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,7 +641,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454990483407777}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.548, y: 0.1, z: -0.587}
+  m_LocalPosition: {x: 0.548, y: 0.1, z: -1.36}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -699,8 +717,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82dea998d315ca64f9f36d8d4fc4c51a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SnapObjectList: {fileID: 0}
+  SnapTo: 1
+  size: 0.6666667
   snapSpeed: 1.5
   offset: 0
+  X: 0
+  Y: 0
+  Z: 0
 --- !u!1 &1479454991086242291
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,6 +736,8 @@ GameObject:
   - component: {fileID: 1479454991086242292}
   - component: {fileID: 7294516297358155556}
   - component: {fileID: 2899061817135482990}
+  - component: {fileID: 8401993382666508396}
+  - component: {fileID: 6587462428139100041}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -765,6 +791,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceada30821473dd43a49e99485805725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8401993382666508396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479454991086242291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8f4b01d61fbb0545a5fddd3d275f48a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player1:
+  - {fileID: 1479454990274546835}
+  - {fileID: 1479454991210851124}
+  - {fileID: 1479454990483407778}
+  Player2:
+  - {fileID: 1479454990145058374}
+  - {fileID: 1479454991544329881}
+  - {fileID: 1479454990453666949}
+  xStart: -1
+  yStart: -1
+  xEnd: 2
+  yEnd: 2
+  winLength: 3
+  winner: -1
+--- !u!114 &6587462428139100041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479454991086242291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 114ecea63fdc4f942b3d0ce518cf187f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Snaps: []
+  XMax: 2
+  XMin: -2
+  YMax: 1
+  YMin: -1
+  ZMax: 3
+  ZMin: -3
 --- !u!1 &1479454991101591201
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,7 +955,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991210851123}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1, z: -0.6599963}
+  m_LocalPosition: {x: 0, y: 0.1, z: -1.42}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -960,8 +1031,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82dea998d315ca64f9f36d8d4fc4c51a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SnapObjectList: {fileID: 0}
+  SnapTo: 1
+  size: 0.6666667
   snapSpeed: 1.5
   offset: 0
+  X: 0
+  Y: 0
+  Z: 0
 --- !u!1 &1479454991231508647
 GameObject:
   m_ObjectHideFlags: 0
@@ -1081,7 +1158,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991544329880}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1, z: 0.66000366}
+  m_LocalPosition: {x: 0, y: 0.1, z: 1.39}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -1157,5 +1234,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82dea998d315ca64f9f36d8d4fc4c51a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SnapObjectList: {fileID: 0}
+  SnapTo: 1
+  size: 0.6666667
   snapSpeed: 1.5
   offset: 0
+  X: 0
+  Y: 0
+  Z: 0

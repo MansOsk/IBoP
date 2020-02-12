@@ -13,216 +13,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-02-11T16:27:05.180+01:00
+  lastUpdatedAtString: 2020-02-11T16:36:37.669+01:00
   initializedAtString: 2020-02-11T12:43:37.184+01:00
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Users\John Walker\IBoP\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
+  - path: Assets\Testcenes\Scripts\ARVisualizer.cs
+    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\ARVisualizer.cs
+    projectPath: Assets\Testcenes\Scripts\ARVisualizer.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Testcenes\Images.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Images.meta
-    projectPath: Assets\Testcenes\Images.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes\Images\TTT2.PNG
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Images\TTT2.PNG
-    projectPath: Assets\Testcenes\Images\TTT2.PNG
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes\Images\TTT2.PNG.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Images\TTT2.PNG.meta
-    projectPath: Assets\Testcenes\Images\TTT2.PNG.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes\Prefabs\GameObject.prefab
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\GameObject.prefab
-    projectPath: Assets\Testcenes\Prefabs\GameObject.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Testcenes\SampleScene.unity
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\SampleScene.unity
-    projectPath: Assets\Testcenes\SampleScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Testcenes\SampleScene.unity.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\SampleScene.unity.meta
-    projectPath: Assets\Testcenes\SampleScene.unity.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Testcenes\TestScene.unity
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\TestScene.unity
-    projectPath: Assets\Testcenes\TestScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\TicTacToe.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe.meta
-    projectPath: Assets\TicTacToe.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\TicTacToe\Scenes.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe\Scenes.meta
-    projectPath: Assets\TicTacToe\Scenes.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\TicTacToe\Scenes\Menu.unity
-    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe\Scenes\Menu.unity
-    projectPath: Assets\TicTacToe\Scenes\Menu.unity
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\TicTacToe\Scenes\Menu.unity.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe\Scenes\Menu.unity.meta
-    projectPath: Assets\TicTacToe\Scenes\Menu.unity.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\TicTacToe\Scripts.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe\Scripts.meta
-    projectPath: Assets\TicTacToe\Scripts.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\TicTacToe\Scripts\LoadScene.cs
-    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe\Scripts\LoadScene.cs
-    projectPath: Assets\TicTacToe\Scripts\LoadScene.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\TicTacToe\Scripts\LoadScene.cs.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe\Scripts\LoadScene.cs.meta
-    projectPath: Assets\TicTacToe\Scripts\LoadScene.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\assetDatabase3
     fullPath: C:\Users\John Walker\IBoP\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\EditorUserBuildSettings.asset
-    fullPath: C:\Users\John Walker\IBoP\Library\EditorUserBuildSettings.asset
-    projectPath: Library\EditorUserBuildSettings.asset
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\gitstatusentries.yaml
-    projectPath: Library\gfu\cache\gitstatusentries.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\gittrackingstatus.yaml
-    projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\LastBuild.buildreport
-    fullPath: C:\Users\John Walker\IBoP\Library\LastBuild.buildreport
-    projectPath: Library\LastBuild.buildreport
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\2b\2b772221045280041be9c57a04e8df2c
-    fullPath: C:\Users\John Walker\IBoP\Library\metadata\2b\2b772221045280041be9c57a04e8df2c
-    projectPath: Library\metadata\2b\2b772221045280041be9c57a04e8df2c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\2b\2b772221045280041be9c57a04e8df2c.info
-    fullPath: C:\Users\John Walker\IBoP\Library\metadata\2b\2b772221045280041be9c57a04e8df2c.info
-    projectPath: Library\metadata\2b\2b772221045280041be9c57a04e8df2c.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\38\387c4e6e1a8541a45a975c659e8c31cc
-    fullPath: C:\Users\John Walker\IBoP\Library\metadata\38\387c4e6e1a8541a45a975c659e8c31cc
-    projectPath: Library\metadata\38\387c4e6e1a8541a45a975c659e8c31cc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\38\387c4e6e1a8541a45a975c659e8c31cc.info
-    fullPath: C:\Users\John Walker\IBoP\Library\metadata\38\387c4e6e1a8541a45a975c659e8c31cc.info
-    projectPath: Library\metadata\38\387c4e6e1a8541a45a975c659e8c31cc.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\boot.config
-    fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\boot.config
-    projectPath: Library\PlayerDataCache\Android\Data\boot.config
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\globalgamemanagers
-    fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\globalgamemanagers
-    projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
-    fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
-    projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\level0
-    fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\level0
-    projectPath: Library\PlayerDataCache\Android\Data\level0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
-    fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll.mdb
-    fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll.mdb
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll.mdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
-    fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
-    fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
-    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\sharedassets0.assets
-    fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\sharedassets0.assets
-    projectPath: Library\PlayerDataCache\Android\Data\sharedassets0.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
-    fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
-    projectPath: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+    workTreeStatus: 5
+  - path: Library\metadata\59\592497589c7114a4e92ad6371e2278fe
+    fullPath: C:\Users\John Walker\IBoP\Library\metadata\59\592497589c7114a4e92ad6371e2278fe
+    projectPath: Library\metadata\59\592497589c7114a4e92ad6371e2278fe
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -235,114 +55,6 @@ MonoBehaviour:
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-    fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\John Walker\IBoP\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: C:\Users\John Walker\IBoP\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\Users\John Walker\IBoP\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    fullPath: C:\Users\John Walker\IBoP\Library\shadercompiler-UnityShaderCompiler.exe3.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\Hierarchy\28c902-mainStage.json
-    fullPath: C:\Users\John Walker\IBoP\Library\StateCache\Hierarchy\28c902-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\28c902-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\0d2555-mainStage.json
-    fullPath: C:\Users\John Walker\IBoP\Library\StateCache\SceneView\0d2555-mainStage.json
-    projectPath: Library\StateCache\SceneView\0d2555-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    fullPath: C:\Users\John Walker\IBoP\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\EditorBuildSettings.asset
-    fullPath: C:\Users\John Walker\IBoP\ProjectSettings\EditorBuildSettings.asset
-    projectPath: ProjectSettings\EditorBuildSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\ProjectSettings.asset
-    fullPath: C:\Users\John Walker\IBoP\ProjectSettings\ProjectSettings.asset
-    projectPath: ProjectSettings\ProjectSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\UnityConnectSettings.asset
-    fullPath: C:\Users\John Walker\IBoP\ProjectSettings\UnityConnectSettings.asset
-    projectPath: ProjectSettings\UnityConnectSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TicTacToe.apk
-    fullPath: C:\Users\John Walker\IBoP\TicTacToe.apk
-    projectPath: TicTacToe.apk
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

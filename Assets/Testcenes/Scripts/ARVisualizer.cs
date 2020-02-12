@@ -49,7 +49,6 @@ namespace Testscenes.AugmentedImage
         
         public void Start()
         {
-            //Object.transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
             Object.transform.localRotation = Quaternion.Euler(0, 0, 0);
         }
         public void Update()

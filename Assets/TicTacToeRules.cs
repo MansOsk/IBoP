@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,10 +6,11 @@ public class TicTacToeRules : GameState
 {
     public Snap[] Player1, Player2;
     public int xStart, yStart, xEnd, yEnd, winLength, winner = -1;
+    public GameObject grid;
+    public Material red, blue, white;
     // Start is called before the first frame update
     void Start()
     {
-
     }
     public int[][] LastMap;
 
@@ -52,9 +53,11 @@ public class TicTacToeRules : GameState
                         }
                         if (win)
                         {
-                            winner = player;
-                            print("Player " + player + " won!");
+                            setWinner(player);
                             return;
+                        } else
+                        {
+                            resetBoard();
                         }
                     }
                     if (i + winLength <= yEnd)
@@ -70,9 +73,12 @@ public class TicTacToeRules : GameState
                         }
                         if (win)
                         {
-                            winner = player;
-                            print("Player " + player + " won!");
+                            setWinner(player);
                             return;
+                        }
+                        else
+                        {
+                            resetBoard();
                         }
                     }
                     if (i + winLength <= yEnd && k + winLength <= xEnd)
@@ -88,9 +94,12 @@ public class TicTacToeRules : GameState
                         }
                         if (win)
                         {
-                            winner = player;
-                            print("Player " + player + " won!");
+                            setWinner(player);
                             return;
+                        }
+                        else
+                        {
+                            resetBoard();
                         }
                     }
                     if (i - yStart >= winLength - 1 && k + winLength <= xEnd)
@@ -106,9 +115,12 @@ public class TicTacToeRules : GameState
                         }
                         if (win)
                         {
-                            winner = player;
-                            print("Player " + player + " won!");
+                            setWinner(player);
                             return;
+                        }
+                        else
+                        {
+                            resetBoard();
                         }
                     }
                 }
@@ -116,4 +128,23 @@ public class TicTacToeRules : GameState
         }
     }
     public override int[] GetState() => new int[] { winner };
+
+    void setWinner(int player)
+    {
+        winner = player;
+        print("Player " + player + " won!");
+        if (player == 1)
+        {
+            grid.GetComponent<MeshRenderer>().material = red;
+        }
+        else
+        {
+            grid.GetComponent<MeshRenderer>().material = blue;
+        }
+    }
+
+    void resetBoard()
+    {
+        grid.GetComponent<MeshRenderer>().material = white;
+    }
 }

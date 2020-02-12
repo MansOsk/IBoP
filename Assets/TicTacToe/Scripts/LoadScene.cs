@@ -27,7 +27,7 @@ public class LoadScene : MonoBehaviour
     }
     public void reload()
     {
-        //SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("SampleScene");
         ARController arc = GameObject.Find("ARController").GetComponent<ARController>();
         arc.FitToScanOverlay.SetActive(false);
         arc.AugmentedImageVisualizerPrefab.Object.SetActive(true);

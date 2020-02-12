@@ -257,6 +257,7 @@
     <Compile Include="Assets\PopUp.cs" />
     <Compile Include="Assets\Testcenes\Scripts\ARController.cs" />
     <Compile Include="Assets\Testcenes\Scripts\ARVisualizer.cs" />
+    <Compile Include="Assets\Testcenes\Scripts\InactiveAtStart.cs" />
     <Compile Include="Assets\Testcenes\Scripts\moveObject.cs" />
     <Compile Include="Assets\Testcenes\Scripts\Snap.cs" />
     <Compile Include="Assets\Testcenes\Scripts\SnapObjectList.cs" />

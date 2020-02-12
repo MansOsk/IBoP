@@ -5,25 +5,35 @@ using UnityEngine;
 
 public class PopUp : MonoBehaviour
 {
-    public GameObject Showbject;
+    public GameState State;
+    public List<GameObject> PopUps;
 
     // Start is called before the first frame update
     void Start()
     {
-        Showbject.transform.localPosition = new Vector3();
-        Showbject.SetActive(false);
-    }
 
+    }
     // Update is called once per frame
     void Update()
     {
-        if(ShowObject())
-            Showbject.SetActive(true);
+        ProcessGameState(State.GetState());
     }
 
-    public virtual bool ShowObject()
+    public virtual void ProcessGameState(int[] state)
     {
-        return Input.GetKey(KeyCode.A);
+        if (state[0] > -1)
+        {
+            foreach(GameObject popUp in PopUps)
+            {
+                popUp.SetActive(true);
+            }
+        }
     }
+
+
+}
+public abstract class GameState : MonoBehaviour
+{
+    public abstract int[] GetState();
 }
 

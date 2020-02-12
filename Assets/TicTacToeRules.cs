@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TicTacToeRules : MonoBehaviour
+public class TicTacToeRules : GameState
 {
     public Snap[] Player1, Player2;
     public int xStart, yStart, xEnd, yEnd, winLength, winner = -1;
@@ -17,19 +17,19 @@ public class TicTacToeRules : MonoBehaviour
     void Update()
     {
         int[][] map = new int[xEnd - xStart][];
-        for(int k = 0; k < map.Length; k++)
+        for (int k = 0; k < map.Length; k++)
             map[k] = new int[yEnd - yStart];
         LastMap = map;
-        foreach(Snap p in Player1)
+        foreach (Snap p in Player1)
         {
-            if(p != null)
-                if(p.X < xEnd - xStart && p.Z < yEnd - yStart)
+            if (p != null)
+                if (p.X < xEnd && p.Z < yEnd && p.X > xStart && p.Z > yStart)
                     map[p.X - xStart][p.Z - yStart] += 1;
         }
         foreach (Snap p in Player2)
         {
             if (p != null)
-                if (p.X < xEnd - xStart && p.Z < yEnd - yStart)
+                if (p.X < xEnd && p.Z < yEnd && p.X > xStart && p.Z > yStart)
                     map[p.X - xStart][p.Z - yStart] += 2;
         }
 
@@ -115,8 +115,5 @@ public class TicTacToeRules : MonoBehaviour
             }
         }
     }
-    interface ITileMapRules
-    {
-        int[][] LastMap();
-    }
+    public override int[] GetState() => new int[] { winner };
 }

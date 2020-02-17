@@ -13,30 +13,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-02-12T13:07:18.034+01:00
-  initializedAtString: 2020-02-12T11:28:49.005+01:00
+  lastUpdatedAtString: 2020-02-17T13:46:18.999+01:00
+  initializedAtString: 2020-02-12T13:55:57.446+01:00
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Users\John Walker\IBoP\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\PopUp.cs
     fullPath: C:\Users\John Walker\IBoP\Assets\PopUp.cs
     projectPath: Assets\PopUp.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Testcenes\Images\TTT3.png
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Images\TTT3.png
-    projectPath: Assets\Testcenes\Images\TTT3.png
+  - path: Assets\Test.unity
+    fullPath: C:\Users\John Walker\IBoP\Assets\Test.unity
+    projectPath: Assets\Test.unity
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Testcenes\Images\TTT3.png.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Images\TTT3.png.meta
-    projectPath: Assets\Testcenes\Images\TTT3.png.meta
+  - path: Assets\Test.unity.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Test.unity.meta
+    projectPath: Assets\Test.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Testcenes\Materials\New Material 3.mat
+    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Materials\New Material 3.mat
+    projectPath: Assets\Testcenes\Materials\New Material 3.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Testcenes\Materials\New Material 3.mat.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Materials\New Material 3.mat.meta
+    projectPath: Assets\Testcenes\Materials\New Material 3.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Testcenes\Prefabs\Camera.prefab
+    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\Camera.prefab
+    projectPath: Assets\Testcenes\Prefabs\Camera.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Testcenes\Prefabs\Camera.prefab.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\Camera.prefab.meta
+    projectPath: Assets\Testcenes\Prefabs\Camera.prefab.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -46,83 +64,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Testcenes\Prefabs\Menus.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\Menus.meta
-    projectPath: Assets\Testcenes\Prefabs\Menus.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes\Prefabs\Menus\GameOverMenu 1.prefab
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\Menus\GameOverMenu
-      1.prefab
-    projectPath: Assets\Testcenes\Prefabs\Menus\GameOverMenu 1.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes\Prefabs\Menus\GameOverMenu 1.prefab.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\Menus\GameOverMenu
-      1.prefab.meta
-    projectPath: Assets\Testcenes\Prefabs\Menus\GameOverMenu 1.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assets\Testcenes\Prefabs\Menus\GameOverMenu.prefab
     fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\Menus\GameOverMenu.prefab
     projectPath: Assets\Testcenes\Prefabs\Menus\GameOverMenu.prefab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes\Prefabs\Menus\GameOverMenu.prefab.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\Menus\GameOverMenu.prefab.meta
-    projectPath: Assets\Testcenes\Prefabs\Menus\GameOverMenu.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes\Prefabs\Menus\YouWin.png
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\Menus\YouWin.png
-    projectPath: Assets\Testcenes\Prefabs\Menus\YouWin.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes\Prefabs\Menus\YouWin.png.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\Menus\YouWin.png.meta
-    projectPath: Assets\Testcenes\Prefabs\Menus\YouWin.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Testcenes\SampleScene.unity
     fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\SampleScene.unity
     projectPath: Assets\Testcenes\SampleScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Testcenes\Scripts\InactiveAtStart.cs
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\InactiveAtStart.cs
-    projectPath: Assets\Testcenes\Scripts\InactiveAtStart.cs
+  - path: Assets\Testcenes\Scripts\ARController.cs
+    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\ARController.cs
+    projectPath: Assets\Testcenes\Scripts\ARController.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Testcenes\Scripts\InactiveAtStart.cs.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\InactiveAtStart.cs.meta
-    projectPath: Assets\Testcenes\Scripts\InactiveAtStart.cs.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Testcenes\Scripts\ARVisualizer.cs
+    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\ARVisualizer.cs
+    projectPath: Assets\Testcenes\Scripts\ARVisualizer.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Testcenes\Scripts\moveObject.cs
+    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\moveObject.cs
+    projectPath: Assets\Testcenes\Scripts\moveObject.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Testcenes\TestScene.unity
     fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\TestScene.unity
     projectPath: Assets\Testcenes\TestScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\TicTacToe\Scripts\LoadScene.cs
-    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToe\Scripts\LoadScene.cs
-    projectPath: Assets\TicTacToe\Scripts\LoadScene.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\TicTacToeRules.cs
-    fullPath: C:\Users\John Walker\IBoP\Assets\TicTacToeRules.cs
-    projectPath: Assets\TicTacToeRules.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -156,6 +130,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
@@ -174,21 +154,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\John Walker\IBoP\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\LastBuild.buildreport
     fullPath: C:\Users\John Walker\IBoP\Library\LastBuild.buildreport
     projectPath: Library\LastBuild.buildreport
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\John Walker\IBoP\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
+  - path: Library\metadata\59\592497589c7114a4e92ad6371e2278fe
+    fullPath: C:\Users\John Walker\IBoP\Library\metadata\59\592497589c7114a4e92ad6371e2278fe
+    projectPath: Library\metadata\59\592497589c7114a4e92ad6371e2278fe
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\ce\ceada30821473dd43a49e99485805725
+    fullPath: C:\Users\John Walker\IBoP\Library\metadata\ce\ceada30821473dd43a49e99485805725
+    projectPath: Library\metadata\ce\ceada30821473dd43a49e99485805725
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\ce\ced949706f755cb4796161298d8e9c2e
+    fullPath: C:\Users\John Walker\IBoP\Library\metadata\ce\ced949706f755cb4796161298d8e9c2e
+    projectPath: Library\metadata\ce\ced949706f755cb4796161298d8e9c2e
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -240,21 +226,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\sharedassets0.assets
-    fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\sharedassets0.assets
-    projectPath: Library\PlayerDataCache\Android\Data\sharedassets0.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
     fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
     projectPath: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ProjectSettings.asset
-    fullPath: C:\Users\John Walker\IBoP\Library\ProjectSettings.asset
-    projectPath: Library\ProjectSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -354,15 +328,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    fullPath: C:\Users\John Walker\IBoP\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\John Walker\IBoP\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+  - path: ProjectSettings\ProjectSettings.asset
+    fullPath: C:\Users\John Walker\IBoP\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

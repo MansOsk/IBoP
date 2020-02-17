@@ -100,8 +100,8 @@ namespace Testscenes.AugmentedImage
                 {
                     // Create an anchor to ensure that ARCore keeps tracking this augmented image.
                     Anchor anchor = image.CreateAnchor(image.CenterPose);
-                    visualizer = (ARVisualizer)Instantiate(
-                        AugmentedImageVisualizerPrefab, anchor.transform);
+                    visualizer = (ARVisualizer)Instantiate(AugmentedImageVisualizerPrefab, anchor.transform);
+                    visualizer.CameraTransform = Camera.main.transform;
                     visualizer.Image = image;
                     m_Visualizers.Add(image.DatabaseIndex, visualizer);
                 }

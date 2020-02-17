@@ -42,6 +42,8 @@ namespace Testscenes.AugmentedImage
         /// </summary>
         public GameObject Object;
 
+        public Transform CameraTransform;
+
         /// <summary>
         /// The Unity Update method.
         /// </summary>

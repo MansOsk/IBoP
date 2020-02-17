@@ -25,7 +25,7 @@ public class PopUp : MonoBehaviour
         {
             foreach(GameObject popUp in PopUps)
             {
-                popUp.SetActive(true);
+                Instantiate(popUp);
             }
         }
     }

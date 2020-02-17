@@ -11,13 +11,13 @@ public class moveObject : MonoBehaviour
     private GameObject che; // Selected checker
     private Transform trans;
     private float distance; //distance from the ray to its impact hit
-
-
+    private float rot;
+    public Camera UsedCamera;
 
     void Start()
     {
         speedModifier = 0.0008f;
-
+        rot = gameObject.transform.rotation.y;
     }
 
 
@@ -42,8 +42,7 @@ public class moveObject : MonoBehaviour
             }
             else if (touch.phase == TouchPhase.Moved && che != null) //checks when the object is moved and if there is a object moved
             {
-
-                float ang = 0;
+                float ang = transform.root.rotation.y;
                 float deltax = (touch.deltaPosition.x * Mathf.Cos(ang) + touch.deltaPosition.y * Mathf.Sin(ang)) * speedModifier;
                 float deltay = (touch.deltaPosition.x * Mathf.Sin(ang) + touch.deltaPosition.y * Mathf.Cos(ang)) * speedModifier;
 

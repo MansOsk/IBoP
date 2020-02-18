@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -44,10 +44,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 681, y: 498}
+  m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 110
+  controlID: 12
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 401
     height: 673
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -217,10 +217,10 @@ MonoBehaviour:
     y: 0
     width: 1369
     height: 947
-  m_MinSize: {x: 404, y: 498}
+  m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 111
+  controlID: 13
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,10 +242,10 @@ MonoBehaviour:
     y: 0
     width: 1369
     height: 673
-  m_MinSize: {x: 404, y: 224}
-  m_MaxSize: {x: 8004, y: 4024}
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 112
+  controlID: 14
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,8 +265,8 @@ MonoBehaviour:
     y: 0
     width: 968
     height: 673
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 18}
@@ -1108,13 +1108,13 @@ MonoBehaviour:
       workTreeStatus: 3
     changedFilesText: 11 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2020-02-12T11:28:48.726+01:00
+      updatedTimeString: 2020-02-18T15:06:40.022+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2020-02-12T13:54:21.625+01:00
+      updatedTimeString: 2020-02-18T15:17:15.728+01:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2020-02-12T13:53:21.106+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -11073,34 +11073,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Testcenes
+    - Assets/Multiplayer
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Testcenes
+  - Assets/Multiplayer
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\John Walker\IBoP
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 207}
-    m_SelectedIDs: 3e2f0000
-    m_LastClickedID: 12094
-    m_ExpandedIDs: 00000000e22a0000fc2a0000122c0000f42c00008c2d0000c22d0000222e00003e2f0000ee30000000ca9a3b
+    scrollPos: {x: 0, y: 71}
+    m_SelectedIDs: ba300000
+    m_LastClickedID: 12474
+    m_ExpandedIDs: 00000000022f0000402f0000ba3000001a310000b2310000d6310000ee310000523200001435000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scenes
-      m_OriginalName: Scenes
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 11862
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -11114,7 +11114,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e22a0000fc2a0000f42c00008c2d0000c22d00003e2f0000ee300000
+    m_ExpandedIDs: 00000000022f00001c2f0000363000001a310000b2310000ee310000523200007033000014350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -11233,23 +11233,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 28870000
-      m_LastClickedID: 34600
-      m_ExpandedIDs: 826fffffbe6fffffde6fffffe86ffffff46fffff3670ffff5670ffffee72fffffa72ffff9473ffffb673ffff4e76ffff6078ffff8078ffff8a78ffff9678ffffd878fffff878ffff0279ffff0e79ffff3e7cffff5e7cffff687cffff747cffffe67effff1682ffff3882ffff4282ffff648dffff848dffff1e90ffff2a90ffffc490ffffe490ffffee90fffffa90ffff7aa1ffffb8a1ffffd8a1ffffa0a4ffffaca4ffff22a5ffffbea8ffffdea8ffff76abffff82abffff16adffff34adffff58adffff7ab1ffffaab3ffffdab8ffff64bdffff62c1fffff2c6ffff70f9ffffdefbffff0c3200008a540000945600001a5800003a5c0000ee5e00002c610000e86300005e660000866f000042750000ec780000
+      m_SelectedIDs: 303a0000
+      m_LastClickedID: 14896
+      m_ExpandedIDs: 
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: GameOverMenu
-        m_OriginalName: GameOverMenu
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 30956
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -11285,14 +11285,14 @@ MonoBehaviour:
     height: 653
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 0d255514c651d8c4584096af39375f64
-  m_SceneLighting: 1
+  m_SceneLighting: 0
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 0, y: 0.0047134273, z: -0.005785808}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 0, y: 0.0047134273, z: -0.005785808}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -11302,7 +11302,7 @@ MonoBehaviour:
   m_SceneViewState:
     showFog: 1
     showMaterialUpdate: 1
-    showSkybox: 1
+    showSkybox: 0
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -11320,13 +11320,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_Size:
     m_Target: 22
     speed: 2
-    m_Value: 22
+    m_Value: 1.3145504
   m_Ortho:
     m_Target: 0
     speed: 2

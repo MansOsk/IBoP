@@ -13,126 +13,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-02-17T13:46:18.999+01:00
-  initializedAtString: 2020-02-12T13:55:57.446+01:00
+  lastUpdatedAtString: 2020-02-18T15:17:15.728+01:00
+  initializedAtString: 2020-02-18T15:06:40.054+01:00
   entries:
-  - path: Assets\PopUp.cs
-    fullPath: C:\Users\John Walker\IBoP\Assets\PopUp.cs
-    projectPath: Assets\PopUp.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Test.unity
-    fullPath: C:\Users\John Walker\IBoP\Assets\Test.unity
-    projectPath: Assets\Test.unity
+  - path: Assets\Multiplayer.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer.meta
+    projectPath: Assets\Multiplayer.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Test.unity.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Test.unity.meta
-    projectPath: Assets\Test.unity.meta
+  - path: Assets\Multiplayer\Offline.unity
+    fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Offline.unity
+    projectPath: Assets\Multiplayer\Offline.unity
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Testcenes\Materials\New Material 3.mat
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Materials\New Material 3.mat
-    projectPath: Assets\Testcenes\Materials\New Material 3.mat
+  - path: Assets\Multiplayer\Offline.unity.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Offline.unity.meta
+    projectPath: Assets\Multiplayer\Offline.unity.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Testcenes\Materials\New Material 3.mat.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Materials\New Material 3.mat.meta
-    projectPath: Assets\Testcenes\Materials\New Material 3.mat.meta
+  - path: Assets\Multiplayer\Online.unity
+    fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Online.unity
+    projectPath: Assets\Multiplayer\Online.unity
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Testcenes\Prefabs\Camera.prefab
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\Camera.prefab
-    projectPath: Assets\Testcenes\Prefabs\Camera.prefab
+  - path: Assets\Multiplayer\Online.unity.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Online.unity.meta
+    projectPath: Assets\Multiplayer\Online.unity.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Testcenes\Prefabs\Camera.prefab.meta
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\Camera.prefab.meta
-    projectPath: Assets\Testcenes\Prefabs\Camera.prefab.meta
+  - path: Assets\Multiplayer\Resources.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources.meta
+    projectPath: Assets\Multiplayer\Resources.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Testcenes\Prefabs\GameObject.prefab
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\GameObject.prefab
-    projectPath: Assets\Testcenes\Prefabs\GameObject.prefab
+  - path: Assets\Multiplayer\Resources\Prefab.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab.meta
+    projectPath: Assets\Multiplayer\Resources\Prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Multiplayer\Resources\Prefab\Network.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\Network.meta
+    projectPath: Assets\Multiplayer\Resources\Prefab\Network.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Multiplayer\Resources\Prefab\Network\NetworkManager.prefab
+    fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\Network\NetworkManager.prefab
+    projectPath: Assets\Multiplayer\Resources\Prefab\Network\NetworkManager.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Multiplayer\Resources\Prefab\Network\NetworkManager.prefab.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\Network\NetworkManager.prefab.meta
+    projectPath: Assets\Multiplayer\Resources\Prefab\Network\NetworkManager.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Testcenes - Copy\Scripts.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes - Copy\Scripts.meta
+    projectPath: Assets\Testcenes - Copy\Scripts.meta
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Testcenes\Prefabs\Menus\GameOverMenu.prefab
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\Menus\GameOverMenu.prefab
-    projectPath: Assets\Testcenes\Prefabs\Menus\GameOverMenu.prefab
+    workTreeStatus: 5
+  - path: Assets\Testcenes - Copy\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
+    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes - Copy\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
+    projectPath: Assets\Testcenes - Copy\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Testcenes\SampleScene.unity
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\SampleScene.unity
-    projectPath: Assets\Testcenes\SampleScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Testcenes\Scripts\ARController.cs
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\ARController.cs
-    projectPath: Assets\Testcenes\Scripts\ARController.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Testcenes\Scripts\ARVisualizer.cs
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\ARVisualizer.cs
-    projectPath: Assets\Testcenes\Scripts\ARVisualizer.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Testcenes\Scripts\moveObject.cs
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\moveObject.cs
-    projectPath: Assets\Testcenes\Scripts\moveObject.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Testcenes\TestScene.unity
-    fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\TestScene.unity
-    projectPath: Assets\Testcenes\TestScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Library\assetDatabase3
     fullPath: C:\Users\John Walker\IBoP\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\CurrentLayout.dwlt
-    fullPath: C:\Users\John Walker\IBoP\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\expandedItems
-    fullPath: C:\Users\John Walker\IBoP\Library\expandedItems
-    projectPath: Library\expandedItems
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -157,24 +121,6 @@ MonoBehaviour:
   - path: Library\LastBuild.buildreport
     fullPath: C:\Users\John Walker\IBoP\Library\LastBuild.buildreport
     projectPath: Library\LastBuild.buildreport
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\59\592497589c7114a4e92ad6371e2278fe
-    fullPath: C:\Users\John Walker\IBoP\Library\metadata\59\592497589c7114a4e92ad6371e2278fe
-    projectPath: Library\metadata\59\592497589c7114a4e92ad6371e2278fe
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\ce\ceada30821473dd43a49e99485805725
-    fullPath: C:\Users\John Walker\IBoP\Library\metadata\ce\ceada30821473dd43a49e99485805725
-    projectPath: Library\metadata\ce\ceada30821473dd43a49e99485805725
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\ce\ced949706f755cb4796161298d8e9c2e
-    fullPath: C:\Users\John Walker\IBoP\Library\metadata\ce\ced949706f755cb4796161298d8e9c2e
-    projectPath: Library\metadata\ce\ced949706f755cb4796161298d8e9c2e
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -313,24 +259,6 @@ MonoBehaviour:
   - path: Library\StateCache\Hierarchy\28c902-mainStage.json
     fullPath: C:\Users\John Walker\IBoP\Library\StateCache\Hierarchy\28c902-mainStage.json
     projectPath: Library\StateCache\Hierarchy\28c902-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\0d2555-mainStage.json
-    fullPath: C:\Users\John Walker\IBoP\Library\StateCache\SceneView\0d2555-mainStage.json
-    projectPath: Library\StateCache\SceneView\0d2555-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\John Walker\IBoP\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\ProjectSettings.asset
-    fullPath: C:\Users\John Walker\IBoP\ProjectSettings\ProjectSettings.asset
-    projectPath: ProjectSettings\ProjectSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

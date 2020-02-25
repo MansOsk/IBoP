@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-02-12T13:12:34.627+01:00
-  initializedAtString: 2020-02-12T11:43:46.493+01:00
+  lastUpdatedAtString: 2020-02-18T15:56:53.401+01:00
+  initializedAtString: 2020-02-18T15:56:53.231+01:00
   localBranches:
   - name: Better
     tracking: origin/Better
   - name: master
     tracking: origin/master
+  - name: Multiplayer
+    tracking: origin/Multiplayer
   remoteBranches:
   - name: origin/Better
     tracking: '[None]'
@@ -28,6 +30,8 @@ MonoBehaviour:
   - name: origin/InputFixing
     tracking: '[None]'
   - name: origin/master
+    tracking: '[None]'
+  - name: origin/Multiplayer
     tracking: '[None]'
   - name: origin/QrFix
     tracking: '[None]'
@@ -45,6 +49,7 @@ MonoBehaviour:
     keys:
     - Better
     - master
+    - Multiplayer
     values:
     - name: Better
       remote:
@@ -56,6 +61,11 @@ MonoBehaviour:
         name: origin
         url: https://github.com/MansOsk/IBoP.git
       trackingBranch: master
+    - name: Multiplayer
+      remote:
+        name: origin
+        url: https://github.com/MansOsk/IBoP.git
+      trackingBranch: Multiplayer
   remoteConfigBranches:
     keys:
     - origin
@@ -65,6 +75,7 @@ MonoBehaviour:
       - HEAD
       - InputFixing
       - master
+      - Multiplayer
       - QrFix
       - rules
     subKeyValues:
@@ -85,6 +96,11 @@ MonoBehaviour:
           url: https://github.com/MansOsk/IBoP.git
         trackingBranch: 
       - name: master
+        remote:
+          name: origin
+          url: https://github.com/MansOsk/IBoP.git
+        trackingBranch: 
+      - name: Multiplayer
         remote:
           name: origin
           url: https://github.com/MansOsk/IBoP.git

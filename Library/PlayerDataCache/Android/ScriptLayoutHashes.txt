@@ -2,12 +2,11 @@ Android
 PlayerPath?
 C:/Users/John Walker/IBoP/TicTacToe.apk
 SceneListBegin?
-Assets/TicTacToe/Scenes/Menu.unity
-Assets/Testcenes/SampleScene.unity
+Assets/Multiplayer/Online.unity
 SceneListEnd?
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 77c21079ace8d76ce6e941d3dabbfe6e Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
-3e6e0fe56103d6cf293d89230c51f283 Assembly-CSharp.dll:Testscenes.AugmentedImage.ARController
+1274443ea147544e094dd4c568c03517 Assembly-CSharp.dll:Testscenes.AugmentedImage.ARController
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 780e8f682b3221346c034a6712a0fd25 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -57,6 +56,7 @@ aa165095bcf0f4d99594ea33df01c81b UnityEngine.UI.dll:UnityEngine.UI.Slider
 0fd6822f6177297bd0eb4d83cc7a9030 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+21e871d89bbce53c038fc75ad1b7c7f3 Assembly-CSharp.dll:.BestNetworkManager
 d3c76b14a25eebd3a3323dd43297919c Unity.TextMeshPro.dll:TMPro.TMP_InputField
 352455aaadb8c98ff36ead557753abfa Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.TiltInput
 febfb1502f3a7d3d25fe0694a27ac6e7 Assembly-CSharp.dll:GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController
@@ -212,6 +212,7 @@ c88c4199b288356ec3eb2f0d85abc619 Assembly-CSharp.dll:UnityStandardAssets.CrossPl
 d80decf816b39c56d5f370970ca63fdc Assembly-CSharp.dll:GoogleARCore.Examples.Common.PointcloudVisualizer
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
 d797fd90380bf511ec8675ca7ca3c766 Assembly-CSharp.dll:.moveObject
+171b0b1b3f949ce9f36281fd73c29ef3 Assembly-CSharp.dll:.SpawnOnEnter
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:GoogleARCore.Examples.CloudAnchors.AnchorController
 c8cb5317e94a23cab19838c151b6cde5 Assembly-CSharp.dll:Testscenes.AugmentedImage.ARVisualizer
 1ab92b1501bff4203df13dd5880207c1 Assembly-CSharp.dll:GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig
@@ -265,6 +266,7 @@ b640dcae08889dea4d87e95a455bbf6b Assembly-CSharp.dll:GoogleARCore.AugmentedImage
 14cb302be190eb67bf7fb5f1aab28ce0 Assembly-CSharp.dll:GoogleARCore.Examples.ObjectManipulation.PawnManipulator
 dea189cf620f6ac37dd27d491e1234b1 Assembly-CSharp.dll:GoogleARCore.Examples.Common.DetectedPlaneGenerator
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Hud
 219ec6059796d8951d2adcd8505d0dc2 Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.TouchPad
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:GoogleARCore.Examples.Common.DetectedPlaneVisualizer
 f29fe45ee101a4b66afe803a76da3f4f Assembly-CSharp.dll:.TicTacToeRules
@@ -344,3 +346,4 @@ fe10de86e42ce80dc24cf76ac1c87c2a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+9727c754c77cea3838439e7a3ce9e372 Assembly-CSharp.dll:.PositionUpdateScript

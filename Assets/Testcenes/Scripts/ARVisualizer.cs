@@ -52,6 +52,8 @@ namespace Testscenes.AugmentedImage
         public void Start()
         {
             Object.transform.localRotation = Quaternion.Euler(0, 0, 0);
+            Camera.main.transform.rotation = transform.rotation;
+            Camera.main.transform.position = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
         }
         public void Update()
         {

@@ -25,6 +25,7 @@ namespace Testscenes.AugmentedImage
     using GoogleARCore;
     using UnityEngine;
     using UnityEngine.UI;
+    using UnityEngine.Networking;
 
     /// <summary>
     /// Controller for AugmentedImage example.
@@ -38,8 +39,10 @@ namespace Testscenes.AugmentedImage
     /// See details in <a href="https://developers.google.com/ar/develop/c/augmented-images/">
     /// Recognize and Augment Images</a>
     /// </remarks>
-    public class ARController : MonoBehaviour
+    public class ARController : NetworkBehaviour
     {
+        public NetworkManager network;
+
         /// <summary>
         /// A prefab for visualizing an AugmentedImage.
         /// </summary>
@@ -64,6 +67,7 @@ namespace Testscenes.AugmentedImage
             // Note, Application.targetFrameRate is ignored when QualitySettings.vSyncCount != 0.
             Application.targetFrameRate = 60;
         }
+        bool StartedARSession = false;
 
         /// <summary>
         /// The Unity Update method.
@@ -87,30 +91,33 @@ namespace Testscenes.AugmentedImage
             }
 
             // Get updated augmented images for this frame.
-            Session.GetTrackables<AugmentedImage>(
-                m_TempAugmentedImages, TrackableQueryFilter.Updated);
+            Session.GetTrackables<AugmentedImage>(m_TempAugmentedImages, TrackableQueryFilter.Updated);
 
             // Create visualizers and anchors for updated augmented images that are tracking and do
             // not previously have a visualizer. Remove visualizers for stopped images.
-            foreach (var image in m_TempAugmentedImages)
-            {
-                ARVisualizer visualizer = null;
-                m_Visualizers.TryGetValue(image.DatabaseIndex, out visualizer);
-                if (image.TrackingState == TrackingState.Tracking && visualizer == null)
+            if(!StartedARSession)
+                foreach (var image in m_TempAugmentedImages)
                 {
-                    // Create an anchor to ensure that ARCore keeps tracking this augmented image.
-                    Anchor anchor = image.CreateAnchor(image.CenterPose);
-                    visualizer = (ARVisualizer)Instantiate(AugmentedImageVisualizerPrefab, anchor.transform);
-                    visualizer.CameraTransform = Camera.main.transform;
-                    visualizer.Image = image;
-                    m_Visualizers.Add(image.DatabaseIndex, visualizer);
+                    ARVisualizer visualizer = null;
+                    m_Visualizers.TryGetValue(image.DatabaseIndex, out visualizer);
+                    if (image.TrackingState == TrackingState.Tracking && visualizer == null && NetworkServer.active)
+                    {
+                        // Create an anchor to ensure that ARCore keeps tracking this augmented image.
+                        Anchor anchor = image.CreateAnchor(image.CenterPose);
+                        GameObject newObject = NetworkManager.Instantiate(AugmentedImageVisualizerPrefab.gameObject, anchor.transform);
+                        NetworkServer.Spawn(newObject);
+                        visualizer = (ARVisualizer)Instantiate(AugmentedImageVisualizerPrefab, anchor.transform);
+                        visualizer.CameraTransform = Camera.main.transform;
+                        visualizer.Image = image;
+                        m_Visualizers.Add(image.DatabaseIndex, visualizer);
+                        StartedARSession = true;
+                    }
+                    else if (image.TrackingState == TrackingState.Stopped && visualizer != null)
+                    {
+                        m_Visualizers.Remove(image.DatabaseIndex);
+                        GameObject.Destroy(visualizer.gameObject);
+                    }
                 }
-                else if (image.TrackingState == TrackingState.Stopped && visualizer != null)
-                {
-                    m_Visualizers.Remove(image.DatabaseIndex);
-                    GameObject.Destroy(visualizer.gameObject);
-                }
-            }
 
             // Show the fit-to-scan overlay if there are no images that are Tracking.
             foreach (var visualizer in m_Visualizers.Values)

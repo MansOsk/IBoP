@@ -13,9 +13,1947 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-02-18T15:56:56.783+01:00
-  initializedAtString: 2020-02-18T15:56:55.579+01:00
+  lastUpdatedAtString: 2020-02-25T13:30:53.675+01:00
+  initializedAtString: 2020-02-25T13:30:52.924+01:00
   log:
+  - commitID: 982c9558cc34175abc7f0b84efa7cafb8c15319d
+    mergeA: 
+    mergeB: 
+    authorName: ojawez-7
+    authorEmail: 36762144+ojawez-7@users.noreply.github.com
+    commitEmail: 36762144+ojawez-7@users.noreply.github.com
+    commitName: ojawez-7
+    summary: Initial commit
+    description: 
+    timeString: 2020-02-25T13:24:48.000+01:00
+    commitTimeString: 2020-02-25T13:24:48.000+01:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\John Walker\IBoP\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: C:\Users\John Walker\IBoP\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\John Walker\IBoP\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp-Editor.csproj
+      fullPath: C:\Users\John Walker\IBoP\Assembly-CSharp-Editor.csproj
+      projectPath: Assembly-CSharp-Editor.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\John Walker\IBoP\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\BestNetworkManager.cs
+      fullPath: C:\Users\John Walker\IBoP\Assets\BestNetworkManager.cs
+      projectPath: Assets\BestNetworkManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\BestNetworkManager.cs.meta
+      fullPath: C:\Users\John Walker\IBoP\Assets\BestNetworkManager.cs.meta
+      projectPath: Assets\BestNetworkManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GoogleARCore\SDK\Materials\ARBackground.mat
+      fullPath: C:\Users\John Walker\IBoP\Assets\GoogleARCore\SDK\Materials\ARBackground.mat
+      projectPath: Assets\GoogleARCore\SDK\Materials\ARBackground.mat
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Hud.cs
+      fullPath: C:\Users\John Walker\IBoP\Assets\Hud.cs
+      projectPath: Assets\Hud.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Hud.cs.meta
+      fullPath: C:\Users\John Walker\IBoP\Assets\Hud.cs.meta
+      projectPath: Assets\Hud.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Offline.unity
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Offline.unity
+      projectPath: Assets\Multiplayer\Offline.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Online.unity
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Online.unity
+      projectPath: Assets\Multiplayer\Online.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\ARController 1.prefab
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\ARController
+        1.prefab
+      projectPath: Assets\Multiplayer\Resources\Prefab\ARController 1.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\ARController 1.prefab.meta
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\ARController
+        1.prefab.meta
+      projectPath: Assets\Multiplayer\Resources\Prefab\ARController 1.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\Camera 1.prefab
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\Camera
+        1.prefab
+      projectPath: Assets\Multiplayer\Resources\Prefab\Camera 1.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\Camera 1.prefab.meta
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\Camera
+        1.prefab.meta
+      projectPath: Assets\Multiplayer\Resources\Prefab\Camera 1.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\Canvas 1.prefab
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\Canvas
+        1.prefab
+      projectPath: Assets\Multiplayer\Resources\Prefab\Canvas 1.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\Canvas 1.prefab.meta
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\Canvas
+        1.prefab.meta
+      projectPath: Assets\Multiplayer\Resources\Prefab\Canvas 1.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\GameObject.prefab
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\GameObject.prefab
+      projectPath: Assets\Multiplayer\Resources\Prefab\GameObject.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\GameObject.prefab.meta
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\GameObject.prefab.meta
+      projectPath: Assets\Multiplayer\Resources\Prefab\GameObject.prefab.meta
+      originalPath: Assets\Testcenes\Prefabs\GameObject.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\GameObjectPC.prefab
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\GameObjectPC.prefab
+      projectPath: Assets\Multiplayer\Resources\Prefab\GameObjectPC.prefab
+      originalPath: Assets\Testcenes\Prefabs\GameObject.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\GameObjectPC.prefab.meta
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\GameObjectPC.prefab.meta
+      projectPath: Assets\Multiplayer\Resources\Prefab\GameObjectPC.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\Network\NetworkManager.prefab
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\Network\NetworkManager.prefab
+      projectPath: Assets\Multiplayer\Resources\Prefab\Network\NetworkManager.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\PlayerModels.meta
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\PlayerModels.meta
+      projectPath: Assets\Multiplayer\Resources\Prefab\PlayerModels.meta
+      originalPath: Assets\Testcenes - Copy\Standard Assets\CrossPlatformInput\Scripts.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\PlayerModels\Player.prefab
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\PlayerModels\Player.prefab
+      projectPath: Assets\Multiplayer\Resources\Prefab\PlayerModels\Player.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\PlayerModels\Player.prefab.meta
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\PlayerModels\Player.prefab.meta
+      projectPath: Assets\Multiplayer\Resources\Prefab\PlayerModels\Player.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\Sphere.prefab
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\Sphere.prefab
+      projectPath: Assets\Multiplayer\Resources\Prefab\Sphere.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Multiplayer\Resources\Prefab\Sphere.prefab.meta
+      fullPath: C:\Users\John Walker\IBoP\Assets\Multiplayer\Resources\Prefab\Sphere.prefab.meta
+      projectPath: Assets\Multiplayer\Resources\Prefab\Sphere.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PositionUpdateScript.cs
+      fullPath: C:\Users\John Walker\IBoP\Assets\PositionUpdateScript.cs
+      projectPath: Assets\PositionUpdateScript.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PositionUpdateScript.cs.meta
+      fullPath: C:\Users\John Walker\IBoP\Assets\PositionUpdateScript.cs.meta
+      projectPath: Assets\PositionUpdateScript.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SpawnOnEnter.cs
+      fullPath: C:\Users\John Walker\IBoP\Assets\SpawnOnEnter.cs
+      projectPath: Assets\SpawnOnEnter.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SpawnOnEnter.cs.meta
+      fullPath: C:\Users\John Walker\IBoP\Assets\SpawnOnEnter.cs.meta
+      projectPath: Assets\SpawnOnEnter.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\AugmentedImage\QR.asset
+      fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\AugmentedImage\QR.asset
+      projectPath: Assets\Testcenes\AugmentedImage\QR.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Prefabs\Camera.prefab
+      fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Prefabs\Camera.prefab
+      projectPath: Assets\Testcenes\Prefabs\Camera.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Testcenes\SampleScene.unity
+      fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\SampleScene.unity
+      projectPath: Assets\Testcenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Testcenes\SampleSceneMultiplayer.unity
+      fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\SampleSceneMultiplayer.unity
+      projectPath: Assets\Testcenes\SampleSceneMultiplayer.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\SampleSceneMultiplayer.unity.meta
+      fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\SampleSceneMultiplayer.unity.meta
+      projectPath: Assets\Testcenes\SampleSceneMultiplayer.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Scripts\ARController.cs
+      fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\ARController.cs
+      projectPath: Assets\Testcenes\Scripts\ARController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Scripts\ARVisualizer.cs
+      fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\ARVisualizer.cs
+      projectPath: Assets\Testcenes\Scripts\ARVisualizer.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Testcenes\Scripts\moveObject.cs
+      fullPath: C:\Users\John Walker\IBoP\Assets\Testcenes\Scripts\moveObject.cs
+      projectPath: Assets\Testcenes\Scripts\moveObject.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\AssetImportState
+      fullPath: C:\Users\John Walker\IBoP\Library\AssetImportState
+      projectPath: Library\AssetImportState
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\John Walker\IBoP\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\EditorUserBuildSettings.asset
+      fullPath: C:\Users\John Walker\IBoP\Library\EditorUserBuildSettings.asset
+      projectPath: Library\EditorUserBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\John Walker\IBoP\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\LastBuild.buildreport
+      fullPath: C:\Users\John Walker\IBoP\Library\LastBuild.buildreport
+      projectPath: Library\LastBuild.buildreport
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\LastSceneManagerSetup.txt
+      fullPath: C:\Users\John Walker\IBoP\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+      projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll.mdb
+      projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll.mdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
+      fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
+      projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+      fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+      projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Android\Data\boot.config
+      fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\boot.config
+      projectPath: Library\PlayerDataCache\Android\Data\boot.config
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Android\Data\globalgamemanagers
+      fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\globalgamemanagers
+      projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+      fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+      projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Android\Data\level0
+      fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\level0
+      projectPath: Library\PlayerDataCache\Android\Data\level0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+      fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\Data\sharedassets0.assets
+      projectPath: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+      fullPath: C:\Users\John Walker\IBoP\Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+      projectPath: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: C:\Users\John Walker\IBoP\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\Hierarchy\28c902-mainStage.json
+      fullPath: C:\Users\John Walker\IBoP\Library\StateCache\Hierarchy\28c902-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\28c902-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\0d2555-mainStage.json
+      fullPath: C:\Users\John Walker\IBoP\Library\StateCache\SceneView\0d2555-mainStage.json
+      projectPath: Library\StateCache\SceneView\0d2555-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\John Walker\IBoP\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\expandedItems
+      fullPath: C:\Users\John Walker\IBoP\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\John Walker\IBoP\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\01\01e02995805eb483690380a911a657e2
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\01\01e02995805eb483690380a911a657e2
+      projectPath: Library\metadata\01\01e02995805eb483690380a911a657e2
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\01\01e02995805eb483690380a911a657e2.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\01\01e02995805eb483690380a911a657e2.info
+      projectPath: Library\metadata\01\01e02995805eb483690380a911a657e2.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\02\02bd6f3d1516e42af87ba5dd2d38f60c
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\02\02bd6f3d1516e42af87ba5dd2d38f60c
+      projectPath: Library\metadata\02\02bd6f3d1516e42af87ba5dd2d38f60c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\03\03ad0130a037647aeb60218f61aca114.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\03\03ad0130a037647aeb60218f61aca114.info
+      projectPath: Library\metadata\03\03ad0130a037647aeb60218f61aca114.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\06\0626b924325d1c34cafa6b22297f4e4f
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\06\0626b924325d1c34cafa6b22297f4e4f
+      projectPath: Library\metadata\06\0626b924325d1c34cafa6b22297f4e4f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\06\0626b924325d1c34cafa6b22297f4e4f.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\06\0626b924325d1c34cafa6b22297f4e4f.info
+      projectPath: Library\metadata\06\0626b924325d1c34cafa6b22297f4e4f.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\0a\0abeb4ecc05154f7d9bed5316c0faf53
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\0a\0abeb4ecc05154f7d9bed5316c0faf53
+      projectPath: Library\metadata\0a\0abeb4ecc05154f7d9bed5316c0faf53
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\0a\0abeb4ecc05154f7d9bed5316c0faf53.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\0a\0abeb4ecc05154f7d9bed5316c0faf53.info
+      projectPath: Library\metadata\0a\0abeb4ecc05154f7d9bed5316c0faf53.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\0c\0c6271a290ef75b4c97d58746c86c5b8
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\0c\0c6271a290ef75b4c97d58746c86c5b8
+      projectPath: Library\metadata\0c\0c6271a290ef75b4c97d58746c86c5b8
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\0c\0c6271a290ef75b4c97d58746c86c5b8.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\0c\0c6271a290ef75b4c97d58746c86c5b8.info
+      projectPath: Library\metadata\0c\0c6271a290ef75b4c97d58746c86c5b8.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\11\1123a5811359b024291f4f9592548473
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\11\1123a5811359b024291f4f9592548473
+      projectPath: Library\metadata\11\1123a5811359b024291f4f9592548473
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\11\1123a5811359b024291f4f9592548473.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\11\1123a5811359b024291f4f9592548473.info
+      projectPath: Library\metadata\11\1123a5811359b024291f4f9592548473.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\11\1153e7a32cee2442690888a405135aa4
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\11\1153e7a32cee2442690888a405135aa4
+      projectPath: Library\metadata\11\1153e7a32cee2442690888a405135aa4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\11\1153e7a32cee2442690888a405135aa4.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\11\1153e7a32cee2442690888a405135aa4.info
+      projectPath: Library\metadata\11\1153e7a32cee2442690888a405135aa4.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\1a\1ad19e9b185b2430d9e04fa903da981e
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\1a\1ad19e9b185b2430d9e04fa903da981e
+      projectPath: Library\metadata\1a\1ad19e9b185b2430d9e04fa903da981e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\1a\1ad19e9b185b2430d9e04fa903da981e.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\1a\1ad19e9b185b2430d9e04fa903da981e.info
+      projectPath: Library\metadata\1a\1ad19e9b185b2430d9e04fa903da981e.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\1d\1d98321eac49545bca280476584adc6d
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\1d\1d98321eac49545bca280476584adc6d
+      projectPath: Library\metadata\1d\1d98321eac49545bca280476584adc6d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\1d\1d98321eac49545bca280476584adc6d.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\1d\1d98321eac49545bca280476584adc6d.info
+      projectPath: Library\metadata\1d\1d98321eac49545bca280476584adc6d.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\20\209563986116240d6aaec5a6fb7786a7
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\20\209563986116240d6aaec5a6fb7786a7
+      projectPath: Library\metadata\20\209563986116240d6aaec5a6fb7786a7
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\20\209563986116240d6aaec5a6fb7786a7.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\20\209563986116240d6aaec5a6fb7786a7.info
+      projectPath: Library\metadata\20\209563986116240d6aaec5a6fb7786a7.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\26\260f5f218a40e49c0a0a55c499a121a8
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\26\260f5f218a40e49c0a0a55c499a121a8
+      projectPath: Library\metadata\26\260f5f218a40e49c0a0a55c499a121a8
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\26\260f5f218a40e49c0a0a55c499a121a8.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\26\260f5f218a40e49c0a0a55c499a121a8.info
+      projectPath: Library\metadata\26\260f5f218a40e49c0a0a55c499a121a8.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\29\299fdf055c56447a584c737fdf561d9c
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\29\299fdf055c56447a584c737fdf561d9c
+      projectPath: Library\metadata\29\299fdf055c56447a584c737fdf561d9c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\29\299fdf055c56447a584c737fdf561d9c.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\29\299fdf055c56447a584c737fdf561d9c.info
+      projectPath: Library\metadata\29\299fdf055c56447a584c737fdf561d9c.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\2e\2ecbcbc6aaa874957b67ca6503e7a633
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\2e\2ecbcbc6aaa874957b67ca6503e7a633
+      projectPath: Library\metadata\2e\2ecbcbc6aaa874957b67ca6503e7a633
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\2e\2ecbcbc6aaa874957b67ca6503e7a633.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\2e\2ecbcbc6aaa874957b67ca6503e7a633.info
+      projectPath: Library\metadata\2e\2ecbcbc6aaa874957b67ca6503e7a633.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\3c\3cf132d4fa07f4f0cb2883499c5c7dd0
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\3c\3cf132d4fa07f4f0cb2883499c5c7dd0
+      projectPath: Library\metadata\3c\3cf132d4fa07f4f0cb2883499c5c7dd0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\3c\3cf132d4fa07f4f0cb2883499c5c7dd0.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\3c\3cf132d4fa07f4f0cb2883499c5c7dd0.info
+      projectPath: Library\metadata\3c\3cf132d4fa07f4f0cb2883499c5c7dd0.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\3d\3d39dfe2aa0c94827bb1460f2cdced63
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\3d\3d39dfe2aa0c94827bb1460f2cdced63
+      projectPath: Library\metadata\3d\3d39dfe2aa0c94827bb1460f2cdced63
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\3d\3d39dfe2aa0c94827bb1460f2cdced63.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\3d\3d39dfe2aa0c94827bb1460f2cdced63.info
+      projectPath: Library\metadata\3d\3d39dfe2aa0c94827bb1460f2cdced63.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\3d\3d8675433a508ec47b8f895201eacf20
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\3d\3d8675433a508ec47b8f895201eacf20
+      projectPath: Library\metadata\3d\3d8675433a508ec47b8f895201eacf20
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\3d\3d8675433a508ec47b8f895201eacf20.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\3d\3d8675433a508ec47b8f895201eacf20.info
+      projectPath: Library\metadata\3d\3d8675433a508ec47b8f895201eacf20.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\42\42bc152179d434ef8b9a73da7cf757e2
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\42\42bc152179d434ef8b9a73da7cf757e2
+      projectPath: Library\metadata\42\42bc152179d434ef8b9a73da7cf757e2
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\42\42bc152179d434ef8b9a73da7cf757e2.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\42\42bc152179d434ef8b9a73da7cf757e2.info
+      projectPath: Library\metadata\42\42bc152179d434ef8b9a73da7cf757e2.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\49\49b611e658efbf443b686a4036f74fe3
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\49\49b611e658efbf443b686a4036f74fe3
+      projectPath: Library\metadata\49\49b611e658efbf443b686a4036f74fe3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\49\49b611e658efbf443b686a4036f74fe3.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\49\49b611e658efbf443b686a4036f74fe3.info
+      projectPath: Library\metadata\49\49b611e658efbf443b686a4036f74fe3.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
+      projectPath: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc.info
+      projectPath: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\4d\4db017495c69e8140a56a0e2b669e3f8
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\4d\4db017495c69e8140a56a0e2b669e3f8
+      projectPath: Library\metadata\4d\4db017495c69e8140a56a0e2b669e3f8
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\4d\4db017495c69e8140a56a0e2b669e3f8.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\4d\4db017495c69e8140a56a0e2b669e3f8.info
+      projectPath: Library\metadata\4d\4db017495c69e8140a56a0e2b669e3f8.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
+      projectPath: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6.info
+      projectPath: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\54\5485e2f56028a3c4cb54f5caa167377e
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\54\5485e2f56028a3c4cb54f5caa167377e
+      projectPath: Library\metadata\54\5485e2f56028a3c4cb54f5caa167377e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\54\5485e2f56028a3c4cb54f5caa167377e.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\54\5485e2f56028a3c4cb54f5caa167377e.info
+      projectPath: Library\metadata\54\5485e2f56028a3c4cb54f5caa167377e.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\58\58f32fb24e9e04466845025d41f60e05
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\58\58f32fb24e9e04466845025d41f60e05
+      projectPath: Library\metadata\58\58f32fb24e9e04466845025d41f60e05
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\59\592497589c7114a4e92ad6371e2278fe
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\59\592497589c7114a4e92ad6371e2278fe
+      projectPath: Library\metadata\59\592497589c7114a4e92ad6371e2278fe
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\5b\5b1a64ea234fb2343b8d0686c51280de
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\5b\5b1a64ea234fb2343b8d0686c51280de
+      projectPath: Library\metadata\5b\5b1a64ea234fb2343b8d0686c51280de
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\5b\5b1a64ea234fb2343b8d0686c51280de.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\5b\5b1a64ea234fb2343b8d0686c51280de.info
+      projectPath: Library\metadata\5b\5b1a64ea234fb2343b8d0686c51280de.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\65\65df33cea96194bb392cabc3d5e3b193
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\65\65df33cea96194bb392cabc3d5e3b193
+      projectPath: Library\metadata\65\65df33cea96194bb392cabc3d5e3b193
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\65\65df33cea96194bb392cabc3d5e3b193.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\65\65df33cea96194bb392cabc3d5e3b193.info
+      projectPath: Library\metadata\65\65df33cea96194bb392cabc3d5e3b193.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\67\67f5949e5328941209c455509a2e6d80
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\67\67f5949e5328941209c455509a2e6d80
+      projectPath: Library\metadata\67\67f5949e5328941209c455509a2e6d80
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\67\67f5949e5328941209c455509a2e6d80.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\67\67f5949e5328941209c455509a2e6d80.info
+      projectPath: Library\metadata\67\67f5949e5328941209c455509a2e6d80.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\6f\6f69ac9876cab06438ac5f0555be9a9f
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\6f\6f69ac9876cab06438ac5f0555be9a9f
+      projectPath: Library\metadata\6f\6f69ac9876cab06438ac5f0555be9a9f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\6f\6f69ac9876cab06438ac5f0555be9a9f.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\6f\6f69ac9876cab06438ac5f0555be9a9f.info
+      projectPath: Library\metadata\6f\6f69ac9876cab06438ac5f0555be9a9f.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\70\7086f3cca96744118a7a82f93646e70b
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\70\7086f3cca96744118a7a82f93646e70b
+      projectPath: Library\metadata\70\7086f3cca96744118a7a82f93646e70b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\70\7086f3cca96744118a7a82f93646e70b.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\70\7086f3cca96744118a7a82f93646e70b.info
+      projectPath: Library\metadata\70\7086f3cca96744118a7a82f93646e70b.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\79\794ab710665f5492aab79cd5106ce18c
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\79\794ab710665f5492aab79cd5106ce18c
+      projectPath: Library\metadata\79\794ab710665f5492aab79cd5106ce18c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\79\794ab710665f5492aab79cd5106ce18c.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\79\794ab710665f5492aab79cd5106ce18c.info
+      projectPath: Library\metadata\79\794ab710665f5492aab79cd5106ce18c.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\82\827c9cd4a3943534f909ac6473e17288
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\82\827c9cd4a3943534f909ac6473e17288
+      projectPath: Library\metadata\82\827c9cd4a3943534f909ac6473e17288
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\82\827c9cd4a3943534f909ac6473e17288.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\82\827c9cd4a3943534f909ac6473e17288.info
+      projectPath: Library\metadata\82\827c9cd4a3943534f909ac6473e17288.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\88\881f092f5ba194ed69b1de192fc521ce
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\88\881f092f5ba194ed69b1de192fc521ce
+      projectPath: Library\metadata\88\881f092f5ba194ed69b1de192fc521ce
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\88\881f092f5ba194ed69b1de192fc521ce.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\88\881f092f5ba194ed69b1de192fc521ce.info
+      projectPath: Library\metadata\88\881f092f5ba194ed69b1de192fc521ce.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\8b\8be06d62721bd4d03a9a318d96e1490f
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\8b\8be06d62721bd4d03a9a318d96e1490f
+      projectPath: Library\metadata\8b\8be06d62721bd4d03a9a318d96e1490f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\8b\8be06d62721bd4d03a9a318d96e1490f.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\8b\8be06d62721bd4d03a9a318d96e1490f.info
+      projectPath: Library\metadata\8b\8be06d62721bd4d03a9a318d96e1490f.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\95\951c3242986014f1393059fbbb975da6
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\95\951c3242986014f1393059fbbb975da6
+      projectPath: Library\metadata\95\951c3242986014f1393059fbbb975da6
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\95\951c3242986014f1393059fbbb975da6.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\95\951c3242986014f1393059fbbb975da6.info
+      projectPath: Library\metadata\95\951c3242986014f1393059fbbb975da6.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\98\9866a92691696b346901281f2b329034
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\98\9866a92691696b346901281f2b329034
+      projectPath: Library\metadata\98\9866a92691696b346901281f2b329034
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\98\9866a92691696b346901281f2b329034.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\98\9866a92691696b346901281f2b329034.info
+      projectPath: Library\metadata\98\9866a92691696b346901281f2b329034.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\9d\9d2a3984082644fd984fe961b7f8272e
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\9d\9d2a3984082644fd984fe961b7f8272e
+      projectPath: Library\metadata\9d\9d2a3984082644fd984fe961b7f8272e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\9d\9d2a3984082644fd984fe961b7f8272e.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\9d\9d2a3984082644fd984fe961b7f8272e.info
+      projectPath: Library\metadata\9d\9d2a3984082644fd984fe961b7f8272e.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\9d\9d7c6e4896067aa4fa512a00f692ac1c
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\9d\9d7c6e4896067aa4fa512a00f692ac1c
+      projectPath: Library\metadata\9d\9d7c6e4896067aa4fa512a00f692ac1c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\9d\9d7c6e4896067aa4fa512a00f692ac1c.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\9d\9d7c6e4896067aa4fa512a00f692ac1c.info
+      projectPath: Library\metadata\9d\9d7c6e4896067aa4fa512a00f692ac1c.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\a3\a3983c59ebf804b4abba687bd7c9e92f
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\a3\a3983c59ebf804b4abba687bd7c9e92f
+      projectPath: Library\metadata\a3\a3983c59ebf804b4abba687bd7c9e92f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\a3\a3983c59ebf804b4abba687bd7c9e92f.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\a3\a3983c59ebf804b4abba687bd7c9e92f.info
+      projectPath: Library\metadata\a3\a3983c59ebf804b4abba687bd7c9e92f.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\a9\a94c9a7eb94ceec4a8d67a1890e22e51
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\a9\a94c9a7eb94ceec4a8d67a1890e22e51
+      projectPath: Library\metadata\a9\a94c9a7eb94ceec4a8d67a1890e22e51
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\a9\a94c9a7eb94ceec4a8d67a1890e22e51.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\a9\a94c9a7eb94ceec4a8d67a1890e22e51.info
+      projectPath: Library\metadata\a9\a94c9a7eb94ceec4a8d67a1890e22e51.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
+      projectPath: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\ac\acc34040a66fe4170bc8885268860cfe.info
+      projectPath: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b3\b3bc1c32ce2284758a917d938d8c3693
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\b3\b3bc1c32ce2284758a917d938d8c3693
+      projectPath: Library\metadata\b3\b3bc1c32ce2284758a917d938d8c3693
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b3\b3bc1c32ce2284758a917d938d8c3693.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\b3\b3bc1c32ce2284758a917d938d8c3693.info
+      projectPath: Library\metadata\b3\b3bc1c32ce2284758a917d938d8c3693.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ce\ce5ebecd4d7a345df86f06d5730f1156
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\ce\ce5ebecd4d7a345df86f06d5730f1156
+      projectPath: Library\metadata\ce\ce5ebecd4d7a345df86f06d5730f1156
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ce\ce5ebecd4d7a345df86f06d5730f1156.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\ce\ce5ebecd4d7a345df86f06d5730f1156.info
+      projectPath: Library\metadata\ce\ce5ebecd4d7a345df86f06d5730f1156.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ce\ceada30821473dd43a49e99485805725
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\ce\ceada30821473dd43a49e99485805725
+      projectPath: Library\metadata\ce\ceada30821473dd43a49e99485805725
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ce\ced949706f755cb4796161298d8e9c2e
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\ce\ced949706f755cb4796161298d8e9c2e
+      projectPath: Library\metadata\ce\ced949706f755cb4796161298d8e9c2e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\db\dba0e7460312d7948b00f323e2ed27b9
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\db\dba0e7460312d7948b00f323e2ed27b9
+      projectPath: Library\metadata\db\dba0e7460312d7948b00f323e2ed27b9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\db\dba0e7460312d7948b00f323e2ed27b9.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\db\dba0e7460312d7948b00f323e2ed27b9.info
+      projectPath: Library\metadata\db\dba0e7460312d7948b00f323e2ed27b9.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\dc\dcb12afed0f0a4ed6a26a0b49e5b66cf
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\dc\dcb12afed0f0a4ed6a26a0b49e5b66cf
+      projectPath: Library\metadata\dc\dcb12afed0f0a4ed6a26a0b49e5b66cf
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\dc\dcb12afed0f0a4ed6a26a0b49e5b66cf.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\dc\dcb12afed0f0a4ed6a26a0b49e5b66cf.info
+      projectPath: Library\metadata\dc\dcb12afed0f0a4ed6a26a0b49e5b66cf.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\e4\e4f1fee3de32377429fd1348fae62b10
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\e4\e4f1fee3de32377429fd1348fae62b10
+      projectPath: Library\metadata\e4\e4f1fee3de32377429fd1348fae62b10
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\e4\e4f1fee3de32377429fd1348fae62b10.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\e4\e4f1fee3de32377429fd1348fae62b10.info
+      projectPath: Library\metadata\e4\e4f1fee3de32377429fd1348fae62b10.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853
+      projectPath: Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853.info
+      projectPath: Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\eb\eb5110f6dab7f4990b554f43afb86d1c
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\eb\eb5110f6dab7f4990b554f43afb86d1c
+      projectPath: Library\metadata\eb\eb5110f6dab7f4990b554f43afb86d1c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\eb\eb5110f6dab7f4990b554f43afb86d1c.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\eb\eb5110f6dab7f4990b554f43afb86d1c.info
+      projectPath: Library\metadata\eb\eb5110f6dab7f4990b554f43afb86d1c.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a
+      projectPath: Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a.info
+      projectPath: Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ed\ed058af3b47864d9e9a3b66082c76d50
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\ed\ed058af3b47864d9e9a3b66082c76d50
+      projectPath: Library\metadata\ed\ed058af3b47864d9e9a3b66082c76d50
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ed\ed058af3b47864d9e9a3b66082c76d50.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\ed\ed058af3b47864d9e9a3b66082c76d50.info
+      projectPath: Library\metadata\ed\ed058af3b47864d9e9a3b66082c76d50.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f3\f372f305c00af444c8cb5eb7277ca24b
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\f3\f372f305c00af444c8cb5eb7277ca24b
+      projectPath: Library\metadata\f3\f372f305c00af444c8cb5eb7277ca24b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f3\f372f305c00af444c8cb5eb7277ca24b.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\f3\f372f305c00af444c8cb5eb7277ca24b.info
+      projectPath: Library\metadata\f3\f372f305c00af444c8cb5eb7277ca24b.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f3\f3d5137e47f9249308ee0351e9e9d581
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\f3\f3d5137e47f9249308ee0351e9e9d581
+      projectPath: Library\metadata\f3\f3d5137e47f9249308ee0351e9e9d581
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f3\f3d5137e47f9249308ee0351e9e9d581.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\f3\f3d5137e47f9249308ee0351e9e9d581.info
+      projectPath: Library\metadata\f3\f3d5137e47f9249308ee0351e9e9d581.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f5\f588d850485d0ae479d73cf3bd0b7b00
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\f5\f588d850485d0ae479d73cf3bd0b7b00
+      projectPath: Library\metadata\f5\f588d850485d0ae479d73cf3bd0b7b00
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f5\f588d850485d0ae479d73cf3bd0b7b00.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\f5\f588d850485d0ae479d73cf3bd0b7b00.info
+      projectPath: Library\metadata\f5\f588d850485d0ae479d73cf3bd0b7b00.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
+      projectPath: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f.info
+      fullPath: C:\Users\John Walker\IBoP\Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f.info
+      projectPath: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\John Walker\IBoP\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: C:\Users\John Walker\IBoP\Library\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: C:\Users\John Walker\IBoP\Library\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: C:\Users\John Walker\IBoP\Library\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+      projectPath: MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+      projectPath: MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+      projectPath: MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\2.0\machine.config
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\2.0\machine.config
+      projectPath: MonoBleedingEdge\etc\mono\2.0\machine.config
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\2.0\settings.map
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\2.0\settings.map
+      projectPath: MonoBleedingEdge\etc\mono\2.0\settings.map
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\2.0\web.config
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\2.0\web.config
+      projectPath: MonoBleedingEdge\etc\mono\2.0\web.config
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+      projectPath: MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\4.0\machine.config
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\4.0\machine.config
+      projectPath: MonoBleedingEdge\etc\mono\4.0\machine.config
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\4.0\settings.map
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\4.0\settings.map
+      projectPath: MonoBleedingEdge\etc\mono\4.0\settings.map
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\4.0\web.config
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\4.0\web.config
+      projectPath: MonoBleedingEdge\etc\mono\4.0\web.config
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+      projectPath: MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+      projectPath: MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\4.5\machine.config
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\4.5\machine.config
+      projectPath: MonoBleedingEdge\etc\mono\4.5\machine.config
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\4.5\settings.map
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\4.5\settings.map
+      projectPath: MonoBleedingEdge\etc\mono\4.5\settings.map
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\4.5\web.config
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\4.5\web.config
+      projectPath: MonoBleedingEdge\etc\mono\4.5\web.config
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\browscap.ini
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\browscap.ini
+      projectPath: MonoBleedingEdge\etc\mono\browscap.ini
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\config
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\config
+      projectPath: MonoBleedingEdge\etc\mono\config
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: MonoBleedingEdge\etc\mono\mconfig\config.xml
+      fullPath: C:\Users\John Walker\IBoP\MonoBleedingEdge\etc\mono\mconfig\config.xml
+      projectPath: MonoBleedingEdge\etc\mono\mconfig\config.xml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\John Walker\IBoP\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\John Walker\IBoP\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: README.md
+      fullPath: C:\Users\John Walker\IBoP\README.md
+      projectPath: README.md
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: TicTacToe.apk
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe.apk
+      projectPath: TicTacToe.apk
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: TicTacToe.exe
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe.exe
+      projectPath: TicTacToe.exe
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\Assembly-CSharp.dll
+      projectPath: TicTacToe_Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\Mono.Security.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\Mono.Security.dll
+      projectPath: TicTacToe_Data\Managed\Mono.Security.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.ComponentModel.Composition.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.ComponentModel.Composition.dll
+      projectPath: TicTacToe_Data\Managed\System.ComponentModel.Composition.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.Configuration.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.Configuration.dll
+      projectPath: TicTacToe_Data\Managed\System.Configuration.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.Core.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.Core.dll
+      projectPath: TicTacToe_Data\Managed\System.Core.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.Data.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.Data.dll
+      projectPath: TicTacToe_Data\Managed\System.Data.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.Diagnostics.StackTrace.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.Diagnostics.StackTrace.dll
+      projectPath: TicTacToe_Data\Managed\System.Diagnostics.StackTrace.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.Drawing.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.Drawing.dll
+      projectPath: TicTacToe_Data\Managed\System.Drawing.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.EnterpriseServices.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.EnterpriseServices.dll
+      projectPath: TicTacToe_Data\Managed\System.EnterpriseServices.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.Globalization.Extensions.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.Globalization.Extensions.dll
+      projectPath: TicTacToe_Data\Managed\System.Globalization.Extensions.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.IO.Compression.FileSystem.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.IO.Compression.FileSystem.dll
+      projectPath: TicTacToe_Data\Managed\System.IO.Compression.FileSystem.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.IO.Compression.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.IO.Compression.dll
+      projectPath: TicTacToe_Data\Managed\System.IO.Compression.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.Net.Http.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.Net.Http.dll
+      projectPath: TicTacToe_Data\Managed\System.Net.Http.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.Numerics.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.Numerics.dll
+      projectPath: TicTacToe_Data\Managed\System.Numerics.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.Runtime.Serialization.Xml.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.Runtime.Serialization.Xml.dll
+      projectPath: TicTacToe_Data\Managed\System.Runtime.Serialization.Xml.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.Runtime.Serialization.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.Runtime.Serialization.dll
+      projectPath: TicTacToe_Data\Managed\System.Runtime.Serialization.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.ServiceModel.Internals.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.ServiceModel.Internals.dll
+      projectPath: TicTacToe_Data\Managed\System.ServiceModel.Internals.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.Transactions.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.Transactions.dll
+      projectPath: TicTacToe_Data\Managed\System.Transactions.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.Xml.Linq.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.Xml.Linq.dll
+      projectPath: TicTacToe_Data\Managed\System.Xml.Linq.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.Xml.XPath.XDocument.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.Xml.XPath.XDocument.dll
+      projectPath: TicTacToe_Data\Managed\System.Xml.XPath.XDocument.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.Xml.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.Xml.dll
+      projectPath: TicTacToe_Data\Managed\System.Xml.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\System.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\System.dll
+      projectPath: TicTacToe_Data\Managed\System.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\Unity.Analytics.DataPrivacy.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\Unity.Analytics.DataPrivacy.dll
+      projectPath: TicTacToe_Data\Managed\Unity.Analytics.DataPrivacy.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\Unity.TextMeshPro.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\Unity.TextMeshPro.dll
+      projectPath: TicTacToe_Data\Managed\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.AIModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.AIModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.AIModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.ARModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.ARModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.ARModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.AccessibilityModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.AccessibilityModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.AccessibilityModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.AnimationModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.AnimationModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.AnimationModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.AssetBundleModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.AssetBundleModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.AssetBundleModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.AudioModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.AudioModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.AudioModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.BaselibModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.BaselibModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.BaselibModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.ClothModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.ClothModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.ClothModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.ClusterInputModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.ClusterInputModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.ClusterInputModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.CoreModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.CoreModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.CoreModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.CrashReportingModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.CrashReportingModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.CrashReportingModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.DirectorModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.DirectorModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.DirectorModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.FileSystemHttpModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.FileSystemHttpModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.FileSystemHttpModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.GameCenterModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.GameCenterModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.GameCenterModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.GridModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.GridModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.GridModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.HotReloadModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.HotReloadModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.HotReloadModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.IMGUIModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.IMGUIModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.IMGUIModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.ImageConversionModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.ImageConversionModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.ImageConversionModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.InputModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.InputModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.InputModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.LocalizationModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.LocalizationModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.LocalizationModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.Networking.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.Networking.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.Networking.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.Physics2DModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.Physics2DModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.Physics2DModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.PhysicsModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.PhysicsModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.PhysicsModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.ProfilerModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.ProfilerModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.ProfilerModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.SpatialTracking.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.SpatialTracking.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.SpatialTracking.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.StreamingModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.StreamingModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.StreamingModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.SubstanceModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.SubstanceModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.SubstanceModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.TLSModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.TLSModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.TLSModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.TerrainModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.TerrainModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.TerrainModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.TextCoreModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.TextCoreModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.TextCoreModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.TextRenderingModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.TextRenderingModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.TextRenderingModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.TilemapModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.TilemapModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.TilemapModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.Timeline.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.Timeline.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.Timeline.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.TimelineModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.TimelineModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.TimelineModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.UI.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.UI.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.UIElementsModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.UIElementsModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.UIElementsModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.UIModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.UIModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.UIModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.UNETModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.UNETModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.UNETModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.UmbraModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.UmbraModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.UmbraModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.UnityConnectModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.UnityConnectModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.UnityConnectModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.VFXModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.VFXModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.VFXModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.VRModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.VRModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.VRModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.VehiclesModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.VehiclesModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.VehiclesModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.VideoModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.VideoModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.VideoModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.WindModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.WindModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.WindModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.XRModule.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.XRModule.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.XRModule.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\UnityEngine.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\UnityEngine.dll
+      projectPath: TicTacToe_Data\Managed\UnityEngine.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\mscorlib.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\mscorlib.dll
+      projectPath: TicTacToe_Data\Managed\mscorlib.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Managed\netstandard.dll
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Managed\netstandard.dll
+      projectPath: TicTacToe_Data\Managed\netstandard.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Resources\unity default resources
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Resources\unity default resources
+      projectPath: TicTacToe_Data\Resources\unity default resources
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\Resources\unity_builtin_extra
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\Resources\unity_builtin_extra
+      projectPath: TicTacToe_Data\Resources\unity_builtin_extra
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\app.info
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\app.info
+      projectPath: TicTacToe_Data\app.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\boot.config
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\boot.config
+      projectPath: TicTacToe_Data\boot.config
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\globalgamemanagers
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\globalgamemanagers
+      projectPath: TicTacToe_Data\globalgamemanagers
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\globalgamemanagers.assets
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\globalgamemanagers.assets
+      projectPath: TicTacToe_Data\globalgamemanagers.assets
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\level0
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\level0
+      projectPath: TicTacToe_Data\level0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\level0.resS
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\level0.resS
+      projectPath: TicTacToe_Data\level0.resS
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\resources.assets
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\resources.assets
+      projectPath: TicTacToe_Data\resources.assets
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\resources.assets.resS
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\resources.assets.resS
+      projectPath: TicTacToe_Data\resources.assets.resS
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\sharedassets0.assets
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\sharedassets0.assets
+      projectPath: TicTacToe_Data\sharedassets0.assets
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: TicTacToe_Data\sharedassets0.assets.resS
+      fullPath: C:\Users\John Walker\IBoP\TicTacToe_Data\sharedassets0.assets.resS
+      projectPath: TicTacToe_Data\sharedassets0.assets.resS
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityCrashHandler64.exe
+      fullPath: C:\Users\John Walker\IBoP\UnityCrashHandler64.exe
+      projectPath: UnityCrashHandler64.exe
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UnityPlayer.dll
+      fullPath: C:\Users\John Walker\IBoP\UnityPlayer.dll
+      projectPath: UnityPlayer.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: WinPixEventRuntime.dll
+      fullPath: C:\Users\John Walker\IBoP\WinPixEventRuntime.dll
+      projectPath: WinPixEventRuntime.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: C:\Users\John Walker\IBoP\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      fullPath: C:\Users\John Walker\IBoP\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\John Walker\IBoP\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: ba43f48b538c5fa8bb326851cdfbc3604571be03
     mergeA: 
     mergeB: 

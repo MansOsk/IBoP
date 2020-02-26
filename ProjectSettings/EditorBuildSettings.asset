@@ -8,25 +8,25 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/TicTacToe/Scenes/Menu.unity
     guid: 9e211de0d527b5a4ba64cc42e2547cfb
-  - enabled: 0
+  - enabled: 1
     path: Assets/TicTacToe/Scenes/Main.unity
     guid: 00050c957bf56dc438440cf6f637598a
   - enabled: 0
-    path: Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity
+    path: Assets/ARCore/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity
     guid: e6a6fa04348cb45c9b0221eb19c946da
   - enabled: 0
-    path: Assets/GoogleARCore/Examples/AugmentedImage/Scenes/AugmentedImage.unity
+    path: Assets/ARCore/GoogleARCore/Examples/AugmentedImage/Scenes/AugmentedImage.unity
     guid: be567d47d3ab94b3badc5b211f535a24
   - enabled: 0
-    path: Assets/Testcenes/TestScene.unity
-    guid: 561accb75b91cba408ca627f139141d2
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Testing/Multiplayer/Online.unity
     guid: 73e7c46d9674ded4ea3da1134f099a9a
   - enabled: 0
-    path: Assets/Testcenes/SampleSceneMultiplayer.unity
-    guid: 275c86c97a7378c4099e451c4b4d6678
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Testing/Multiplayer/Offline.unity
     guid: c4f666518f6831c40bad6be62904626f
   m_configObjects: {}

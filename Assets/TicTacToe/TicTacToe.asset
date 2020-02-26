@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 53ac32fab2599402fb6d154adf4c1e40, type: 3}
-  m_Name: ARCoreSessionConfig
+  m_Name: TicTacToe
   m_EditorClassIdentifier: 
   MatchCameraFramerate: 1
   PlaneFindingMode: 1
   LightEstimationMode: 3
-  EnableCloudAnchor: 0
+  CloudAnchorMode: 1
   AugmentedImageDatabase: {fileID: 11400000, guid: 9f0a8cfc9a0430b4abbdbf1399cee5bf,
     type: 2}
   CameraFocusMode: 0

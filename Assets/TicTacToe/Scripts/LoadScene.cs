@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 using System.Runtime.InteropServices;
 using GoogleARCore;
 using GoogleARCoreInternal;
-using Testscenes.AugmentedImage;
 
 public class LoadScene : MonoBehaviour
 {

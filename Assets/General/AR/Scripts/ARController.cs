@@ -96,29 +96,35 @@ public class ARController : MonoBehaviour
         {
             ARVisualizer visualizer = null;
             m_Visualizers.TryGetValue(image.DatabaseIndex, out visualizer);
-            if (image.TrackingState == TrackingState.Tracking && visualizer == null)
+            if (image.TrackingState == TrackingState.Tracking)
             {
-                ShowObject(image, out visualizer);
+                ShowObject(image, visualizer);
             }
-            else if (image.TrackingState == TrackingState.Stopped && visualizer != null)
+            else if (image.TrackingState == TrackingState.Stopped)
             {
                 ClearObject(image, visualizer);
             }
         }
     }
 
-    public virtual void ShowObject(AugmentedImage image, out ARVisualizer visualizer)
+    public virtual bool ShowObject(AugmentedImage image, ARVisualizer visualizer)
     {
+        if (visualizer != null)
+            return false;
         // Create an anchor to ensure that ARCore keeps tracking this augmented image.
         Anchor anchor = image.CreateAnchor(image.CenterPose);
         visualizer = (ARVisualizer)Instantiate(AugmentedImageVisualizerPrefab, anchor.transform);
         visualizer.Image = image;
         m_Visualizers.Add(image.DatabaseIndex, visualizer);
+        return true;
     }
 
-    public virtual void ClearObject(AugmentedImage image, ARVisualizer visualizer)
+    public virtual bool ClearObject(AugmentedImage image, ARVisualizer visualizer)
     {
+        if (visualizer == null)
+            return false;
         m_Visualizers.Remove(image.DatabaseIndex);
         GameObject.Destroy(visualizer.gameObject);
+        return true;
     }
 }

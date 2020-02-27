@@ -38,13 +38,18 @@ public class ARNetworkController : ARController
         base.Update();
     }
 
-    public override void ShowObject(AugmentedImage image, out ARVisualizer visualizer)
+    public override bool ShowObject(AugmentedImage image, ARVisualizer visualizer)
     {
-        visualizer = null;
         if (NetworkServer.active)
         {
-            base.ShowObject(image, out visualizer);
-            NetworkServer.Spawn(visualizer.gameObject);
+            if (base.ShowObject(image, visualizer))
+            {
+                NetworkServer.Spawn(visualizer.gameObject);
+                return true;
+            }
         }
+        return false;
     }
+
+
 }

@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/TicTacToe/Scenes/Menu.unity
-    guid: 9e211de0d527b5a4ba64cc42e2547cfb
+  - enabled: 1
+    path: Assets/Testing/MultiplayerRestrictions/Scenes/Online.unity
+    guid: a9e7bd60542f1ef4bb67710f238502d9
   - enabled: 1
     path: Assets/TicTacToe/Scenes/Main.unity
     guid: 00050c957bf56dc438440cf6f637598a
@@ -18,15 +18,9 @@ EditorBuildSettings:
     path: Assets/ARCore/GoogleARCore/Examples/AugmentedImage/Scenes/AugmentedImage.unity
     guid: be567d47d3ab94b3badc5b211f535a24
   - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/Testing/Multiplayer/Online.unity
+    path: Assets/Testing/Multiplayer/Scenes/Online.unity
     guid: 73e7c46d9674ded4ea3da1134f099a9a
   - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/Testing/Multiplayer/Offline.unity
+    path: Assets/Testing/Multiplayer/Scenes/Offline.unity
     guid: c4f666518f6831c40bad6be62904626f
   m_configObjects: {}

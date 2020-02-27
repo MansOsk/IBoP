@@ -66,8 +66,7 @@ public class ARController : MonoBehaviour
         }
 
         // Get updated augmented images for this frame.
-        Session.GetTrackables<AugmentedImage>(
-            m_TempAugmentedImages, TrackableQueryFilter.Updated);
+        Session.GetTrackables<AugmentedImage>(m_TempAugmentedImages, TrackableQueryFilter.Updated);
 
         // Create visualizers and anchors for updated augmented images that are tracking and do
         // not previously have a visualizer. Remove visualizers for stopped images.
@@ -79,8 +78,7 @@ public class ARController : MonoBehaviour
             {
                 // Create an anchor to ensure that ARCore keeps tracking this augmented image.
                 Anchor anchor = image.CreateAnchor(image.CenterPose);
-                visualizer = (ARVisualizer)Instantiate(
-                    AugmentedImageVisualizerPrefab, anchor.transform);
+                visualizer = (ARVisualizer)Instantiate(AugmentedImageVisualizerPrefab, anchor.transform);
                 visualizer.Image = image;
                 m_Visualizers.Add(image.DatabaseIndex, visualizer);
             }

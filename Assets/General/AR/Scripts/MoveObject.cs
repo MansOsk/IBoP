@@ -74,19 +74,19 @@ public class MoveObject : MonoBehaviour
                     che = rayHit.collider.gameObject;
                     trans = che.GetComponent<Transform>(); //gets the component of the object that is hit
                 }
-                if (LastPos == null)
-                    LastPos = Input.mousePosition;
-                Vector2 newPosTrans = LastPos - new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-                float ang = transform.root.rotation.y;
-                float deltax = (newPosTrans.x * Mathf.Cos(ang) + newPosTrans.y * Mathf.Sin(ang)) * speedModifier;
-                float deltay = (newPosTrans.x * Mathf.Sin(ang) + newPosTrans.y * Mathf.Cos(ang)) * speedModifier;
+                LastPos = Input.mousePosition;
 
-                trans.position = new Vector3(
-                    trans.position.x + deltax * distance,
-                    trans.position.y,
-                    trans.position.z + deltay * distance);
-                LastPos = trans.position;
             }
+            Vector2 newPosTrans = new Vector2(Input.mousePosition.x, Input.mousePosition.y) - LastPos;
+            float ang = transform.root.rotation.y;
+            float deltax = (newPosTrans.x * Mathf.Cos(ang) + newPosTrans.y * Mathf.Sin(ang)) * speedModifier;
+            float deltay = (newPosTrans.x * Mathf.Sin(ang) + newPosTrans.y * Mathf.Cos(ang)) * speedModifier;
+
+            trans.position = new Vector3(
+                trans.position.x + deltax * distance,
+                trans.position.y,
+                trans.position.z + deltay * distance);
+            LastPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
         }
     }
     

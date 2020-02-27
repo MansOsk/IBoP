@@ -202,7 +202,7 @@ MonoBehaviour:
   SnapObjectList: {fileID: 0}
   SnapTo: 1
   size: 0.6666667
-  snapSpeed: 1.5
+  snapSpeed: 16
   offset: 0
   X: 0
   Y: 0
@@ -496,7 +496,7 @@ MonoBehaviour:
   SnapObjectList: {fileID: 0}
   SnapTo: 1
   size: 0.6666667
-  snapSpeed: 1.5
+  snapSpeed: 16
   offset: 0
   X: 0
   Y: 0
@@ -608,7 +608,7 @@ MonoBehaviour:
   SnapObjectList: {fileID: 0}
   SnapTo: 1
   size: 0.6666667
-  snapSpeed: 1.5
+  snapSpeed: 16
   offset: 0
   X: 0
   Y: 0
@@ -720,7 +720,7 @@ MonoBehaviour:
   SnapObjectList: {fileID: 0}
   SnapTo: 1
   size: 0.6666667
-  snapSpeed: 1.5
+  snapSpeed: 16
   offset: 0
   X: 0
   Y: 0
@@ -747,7 +747,7 @@ GameObject:
   - component: {fileID: 8592551162923417644}
   - component: {fileID: 7519579851412660549}
   m_Layer: 0
-  m_Name: GameObjectPC
+  m_Name: TicTacToePC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -973,7 +973,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991086242291}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -1267208747, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
@@ -983,7 +983,7 @@ MonoBehaviour:
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
-  m_MovementThreshold: 0.001
+  m_MovementThreshold: 1
   m_InterpolateRotation: 0.5
   m_InterpolateMovement: 0.5
 --- !u!114 &8592551162923417644
@@ -993,7 +993,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991086242291}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -1267208747, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
@@ -1003,7 +1003,7 @@ MonoBehaviour:
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
-  m_MovementThreshold: 0.001
+  m_MovementThreshold: 1
   m_InterpolateRotation: 0.5
   m_InterpolateMovement: 0.5
 --- !u!114 &7519579851412660549
@@ -1013,7 +1013,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991086242291}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -1267208747, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
@@ -1023,7 +1023,7 @@ MonoBehaviour:
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
-  m_MovementThreshold: 0.001
+  m_MovementThreshold: 1
   m_InterpolateRotation: 0.5
   m_InterpolateMovement: 0.5
 --- !u!1 &1479454991101591201
@@ -1224,7 +1224,7 @@ MonoBehaviour:
   SnapObjectList: {fileID: 0}
   SnapTo: 1
   size: 0.6666667
-  snapSpeed: 1.5
+  snapSpeed: 16
   offset: 0
   X: 0
   Y: 0
@@ -1427,7 +1427,7 @@ MonoBehaviour:
   SnapObjectList: {fileID: 0}
   SnapTo: 1
   size: 0.6666667
-  snapSpeed: 1.5
+  snapSpeed: 16
   offset: 0
   X: 0
   Y: 0

@@ -249,6 +249,7 @@
     <Compile Include="Assets\General\AR\Scripts\MoveObject.cs" />
     <Compile Include="Assets\General\AR\Scripts\Snap.cs" />
     <Compile Include="Assets\General\AR\Scripts\SnapObjectList.cs" />
+    <Compile Include="Assets\General\Network\Scripts\ARNetworkController.cs" />
     <Compile Include="Assets\General\Network\Scripts\NetworkHud.cs" />
     <Compile Include="Assets\General\Network\Scripts\NetworkManagerScript.cs" />
     <Compile Include="Assets\General\Network\Scripts\PositionUpdateScript.cs" />

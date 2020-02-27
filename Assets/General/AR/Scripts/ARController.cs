@@ -29,10 +29,10 @@ public class ARController : MonoBehaviour
     /// </summary>
     public GameObject FitToScanOverlay;
 
-    private Dictionary<int, ARVisualizer> m_Visualizers
+    protected Dictionary<int, ARVisualizer> m_Visualizers
         = new Dictionary<int, ARVisualizer>();
 
-    private List<AugmentedImage> m_TempAugmentedImages = new List<AugmentedImage>();
+    protected List<AugmentedImage> m_TempAugmentedImages = new List<AugmentedImage>();
 
     /// <summary>
     /// The Unity Awake() method.
@@ -47,7 +47,7 @@ public class ARController : MonoBehaviour
     /// <summary>
     /// The Unity Update method.
     /// </summary>
-    public void Update()
+    public virtual void Update()
     {
         // Exit the app when the 'back' button is pressed.
         if (Input.GetKey(KeyCode.Escape))
@@ -65,29 +65,7 @@ public class ARController : MonoBehaviour
             Screen.sleepTimeout = SleepTimeout.NeverSleep;
         }
 
-        // Get updated augmented images for this frame.
-        Session.GetTrackables<AugmentedImage>(m_TempAugmentedImages, TrackableQueryFilter.Updated);
-
-        // Create visualizers and anchors for updated augmented images that are tracking and do
-        // not previously have a visualizer. Remove visualizers for stopped images.
-        foreach (var image in m_TempAugmentedImages)
-        {
-            ARVisualizer visualizer = null;
-            m_Visualizers.TryGetValue(image.DatabaseIndex, out visualizer);
-            if (image.TrackingState == TrackingState.Tracking && visualizer == null)
-            {
-                // Create an anchor to ensure that ARCore keeps tracking this augmented image.
-                Anchor anchor = image.CreateAnchor(image.CenterPose);
-                visualizer = (ARVisualizer)Instantiate(AugmentedImageVisualizerPrefab, anchor.transform);
-                visualizer.Image = image;
-                m_Visualizers.Add(image.DatabaseIndex, visualizer);
-            }
-            else if (image.TrackingState == TrackingState.Stopped && visualizer != null)
-            {
-                m_Visualizers.Remove(image.DatabaseIndex);
-                GameObject.Destroy(visualizer.gameObject);
-            }
-        }
+        CheckImages();
 
         // Show the fit-to-scan overlay if there are no images that are Tracking.
         foreach (var visualizer in m_Visualizers.Values)
@@ -100,5 +78,47 @@ public class ARController : MonoBehaviour
         }
 
         FitToScanOverlay.SetActive(true);
+    }
+
+    protected virtual void Run()
+    {
+
+    }
+
+    public virtual void CheckImages()
+    {
+        // Get updated augmented images for this frame.
+        Session.GetTrackables<AugmentedImage>(m_TempAugmentedImages, TrackableQueryFilter.Updated);
+
+        // Create visualizers and anchors for updated augmented images that are tracking and do
+        // not previously have a visualizer. Remove visualizers for stopped images.
+        foreach (var image in m_TempAugmentedImages)
+        {
+            ARVisualizer visualizer = null;
+            m_Visualizers.TryGetValue(image.DatabaseIndex, out visualizer);
+            if (image.TrackingState == TrackingState.Tracking && visualizer == null)
+            {
+                ShowObject(image, out visualizer);
+            }
+            else if (image.TrackingState == TrackingState.Stopped && visualizer != null)
+            {
+                ClearObject(image, visualizer);
+            }
+        }
+    }
+
+    public virtual void ShowObject(AugmentedImage image, out ARVisualizer visualizer)
+    {
+        // Create an anchor to ensure that ARCore keeps tracking this augmented image.
+        Anchor anchor = image.CreateAnchor(image.CenterPose);
+        visualizer = (ARVisualizer)Instantiate(AugmentedImageVisualizerPrefab, anchor.transform);
+        visualizer.Image = image;
+        m_Visualizers.Add(image.DatabaseIndex, visualizer);
+    }
+
+    public virtual void ClearObject(AugmentedImage image, ARVisualizer visualizer)
+    {
+        m_Visualizers.Remove(image.DatabaseIndex);
+        GameObject.Destroy(visualizer.gameObject);
     }
 }

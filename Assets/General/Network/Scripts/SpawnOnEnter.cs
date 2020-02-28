@@ -21,7 +21,7 @@ public class SpawnOnEnter : NetworkBehaviour
             //NetworkIdentity go = Instantiate(GameObject, transform.position, transform.rotation);
             //GameObject.transform.Translate(1, 0, 0);
             if(NetworkServer.active)
-                NetworkServer.Spawn(NetworkManager.Instantiate(AddObject));
+                NetworkServer.SpawnWithClientAuthority(NetworkManager.Instantiate(AddObject), NetworkManagerScript.LastConnection);
         }
     }
 }

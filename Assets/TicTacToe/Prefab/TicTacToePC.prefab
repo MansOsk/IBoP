@@ -925,7 +925,7 @@ MonoBehaviour:
   m_RotationSyncCompression: 0
   m_MovementThreshold: 0.001
   m_InterpolateRotation: 0.5
-  m_InterpolateMovement: 0.05
+  m_InterpolateMovement: 1
 --- !u!114 &1444720135934920524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -945,7 +945,7 @@ MonoBehaviour:
   m_RotationSyncCompression: 0
   m_MovementThreshold: 0.001
   m_InterpolateRotation: 0.5
-  m_InterpolateMovement: 0.05
+  m_InterpolateMovement: 1
 --- !u!114 &5924842256186493238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -965,7 +965,7 @@ MonoBehaviour:
   m_RotationSyncCompression: 0
   m_MovementThreshold: 0.001
   m_InterpolateRotation: 0.5
-  m_InterpolateMovement: 0.05
+  m_InterpolateMovement: 1
 --- !u!114 &8027090331648796477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -973,7 +973,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991086242291}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1267208747, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
@@ -983,9 +983,9 @@ MonoBehaviour:
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
-  m_MovementThreshold: 1
+  m_MovementThreshold: 0.001
   m_InterpolateRotation: 0.5
-  m_InterpolateMovement: 0.5
+  m_InterpolateMovement: 1
 --- !u!114 &8592551162923417644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -993,7 +993,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991086242291}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1267208747, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
@@ -1003,9 +1003,9 @@ MonoBehaviour:
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
-  m_MovementThreshold: 1
+  m_MovementThreshold: 0.001
   m_InterpolateRotation: 0.5
-  m_InterpolateMovement: 0.5
+  m_InterpolateMovement: 1
 --- !u!114 &7519579851412660549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1013,7 +1013,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991086242291}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1267208747, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
@@ -1023,9 +1023,9 @@ MonoBehaviour:
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
-  m_MovementThreshold: 1
+  m_MovementThreshold: 0.001
   m_InterpolateRotation: 0.5
-  m_InterpolateMovement: 0.5
+  m_InterpolateMovement: 1
 --- !u!1 &1479454991101591201
 GameObject:
   m_ObjectHideFlags: 0

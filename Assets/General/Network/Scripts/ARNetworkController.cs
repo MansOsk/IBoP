@@ -44,7 +44,7 @@ public class ARNetworkController : ARController
         {
             if (base.ShowObject(image, visualizer))
             {
-                NetworkServer.Spawn(visualizer.gameObject);
+                NetworkServer.SpawnWithClientAuthority(visualizer.gameObject, NetworkManager.singleton.client.connection);
                 return true;
             }
         }

@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class TicTacToeRules : GameState
 {
-    public Snap[] Player1, Player2;
+    public List<Snap> Player1 = new List<Snap>(), Player2 = new List<Snap>();
     public int xStart, yStart, xEnd, yEnd, winLength, winner = -1;
     public GameObject grid;
     public Material red, blue, white;
     // Start is called before the first frame update
     void Start()
     {
+        
     }
     public int[][] LastMap;
 

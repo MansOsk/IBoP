@@ -10,7 +10,7 @@ public class SpawnOnEnter : NetworkBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -21,7 +21,9 @@ public class SpawnOnEnter : NetworkBehaviour
             //NetworkIdentity go = Instantiate(GameObject, transform.position, transform.rotation);
             //GameObject.transform.Translate(1, 0, 0);
             if(NetworkServer.active)
-                NetworkServer.Spawn(NetworkManager.Instantiate(AddObject));
+                NetworkServer.SpawnWithClientAuthority(NetworkManager.Instantiate(AddObject), GameObject.FindGameObjectsWithTag("Player")[1]);
         }
     }
+
+
 }

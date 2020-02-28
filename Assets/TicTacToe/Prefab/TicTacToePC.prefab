@@ -851,6 +851,7 @@ MonoBehaviour:
   State: {fileID: 8401993382666508396}
   PopUps:
   - {fileID: 5174157858111582641, guid: 9e3a0bdaa907fb9448fb4c37ca98a22d, type: 3}
+  FireOnce: 1
 --- !u!114 &4017637471915907304
 MonoBehaviour:
   m_ObjectHideFlags: 0

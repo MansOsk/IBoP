@@ -14,16 +14,6 @@ public class NetworkManagerScript : NetworkManager
 
     public static NetworkConnection LastConnection;
 
-    private void OnNetworkInstantiate(NetworkMessageInfo info)
-    {
-        
-    }
-
-    private void OnPlayerConnected(UnityEngine.Networking.PlayerConnection.PlayerConnection player)
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {

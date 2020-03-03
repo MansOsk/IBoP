@@ -249,6 +249,7 @@
      <Compile Include="Assets\General\Network\Scripts\SpawnOnEnter.cs" />
      <Compile Include="Assets\General\UI\Scripts\PopUp.cs" />
      <Compile Include="Assets\Testing\Multiplayer\Resources\Scripts\NetworkCreate.cs" />
+     <Compile Include="Assets\Testing\Multiplayer\Resources\Scripts\NetworkPopup.cs" />
      <Compile Include="Assets\TicTacToe\Scripts\LoadScene.cs" />
      <Compile Include="Assets\TicTacToe\Scripts\TicTacToeRules.cs" />
      <None Include="Assets\ARCore\GoogleARCore\Examples\Common\Materials\Shaders\PlaneGrid.shader" />

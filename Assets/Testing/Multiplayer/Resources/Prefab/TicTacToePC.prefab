@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1479454991086242292}
   - component: {fileID: 2899061817135482990}
   - component: {fileID: 4925339767064207904}
-  - component: {fileID: 1246542155817739918}
+  - component: {fileID: 7888618592088308017}
   - component: {fileID: 4017637471915907304}
   - component: {fileID: 5369197891831378065}
   m_Layer: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
   Player1: {fileID: 4013797998342856546, guid: be1e98f1d29f5fc4bbb316419d313518, type: 3}
   Player2: {fileID: 1118009334515491373, guid: 12b301d5dc44cba4a813bd5ba7e93f0c, type: 3}
   Rules: {fileID: 5414244321371259722, guid: dac18a0cfe91da6409be72e776a26db5, type: 3}
---- !u!114 &1246542155817739918
+--- !u!114 &7888618592088308017
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1479454991086242291}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98c78cee0adcc5c4790a343f5146e7ca, type: 3}
+  m_Script: {fileID: 11500000, guid: 34ebb2f53bada7544bf168668081d09b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   State: {fileID: 0}

@@ -8,7 +8,7 @@ public class PopUp : MonoBehaviour
     public GameState State;
     public List<GameObject> PopUps;
     public bool TriggerOnce;
-    private bool Created; 
+    protected bool Created; 
 
     // Start is called before the first frame update
     void Start()
@@ -27,10 +27,15 @@ public class PopUp : MonoBehaviour
         {
             foreach(GameObject popUp in PopUps)
             {
-                Instantiate(popUp);
-                Created = true;
+                CreateObject(popUp);
             }
         }
+    }
+
+    public virtual GameObject CreateObject(GameObject popUp)
+    {
+        Created = true;
+        return Instantiate(popUp);
     }
 
 

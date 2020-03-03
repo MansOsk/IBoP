@@ -18,7 +18,7 @@ public class NetworkCreate : MonoBehaviour
 		{
 			var rules = Rules.GetComponent<TicTacToeRules>();
 
-			var popUp = GetComponent<PopUp>();
+			var popUp = GetComponent<NetworkPopup>();
 
 			var p1 = NetworkManager.Instantiate(Player1);
 			var p2 = NetworkManager.Instantiate(Player2);

@@ -7,6 +7,7 @@ TagManager:
   - World
   - DragControlled
   - ManipulationSystem
+  - Rules
   layers:
   - Default
   - TransparentFX

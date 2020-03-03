@@ -11,19 +11,21 @@ public class TicTacToeRules : GameState
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
     public int[][] LastMap;
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("1");
         int[][] map = new int[xEnd - xStart][];
         for (int k = 0; k < map.Length; k++)
             map[k] = new int[yEnd - yStart];
         LastMap = map;
         foreach (Snap p in Player1)
         {
+            Debug.Log("2");
             if (p != null)
                 if (p.X < xEnd && p.Z < yEnd && p.X > xStart && p.Z > yStart)
                     map[p.X - xStart][p.Z - yStart] += 1;
@@ -43,6 +45,7 @@ public class TicTacToeRules : GameState
                 {
                     if (k + winLength <= xEnd)
                     {
+                        Debug.Log("3");
                         bool win = true;
                         for (int q = 0; q < winLength; q++)
                         {

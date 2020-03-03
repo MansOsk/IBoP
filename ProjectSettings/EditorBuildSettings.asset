@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Testing/Multiplayer/Scenes/Online.unity
     guid: 73e7c46d9674ded4ea3da1134f099a9a
   - enabled: 1
-    path: Assets/Testing/Multiplayer/Scenes/Offline.unity
+    path: Assets/Testing/Multiplayer/Scenes/OnlinePC.unity
     guid: c4f666518f6831c40bad6be62904626f
   m_configObjects: {}

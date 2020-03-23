@@ -19,6 +19,12 @@ public class LoadScene : MonoBehaviour
         SceneManager.LoadScene("SampleScene");
     }
 
+    public void loadGame(Scene scene)
+    {
+        var s = SceneManager.GetActiveScene();
+        SceneManager.SetActiveScene(scene);
+        SceneManager.UnloadScene(s);
+    }
     public void loadMenu() 
     {
         SceneManager.LoadScene("Menu");

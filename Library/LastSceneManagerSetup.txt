@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Testing/Multiplayer/Scenes/OnlinePC.unity
+- path: Assets/Testing/SaveSession/SaveScene.unity
   isLoaded: 1
   isActive: 1

@@ -4,10 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Rules
   - World
   - DragControlled
-  - ManipulationSystem
-  - Rules
+  - Player1Won
+  - Player2Won
+  - Drag,King
+  - Drag
   layers:
   - Default
   - TransparentFX
@@ -17,7 +20,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - PostProcessing
   - 
   - 
   - 

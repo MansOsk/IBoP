@@ -7,13 +7,11 @@ using UnityEngine.Networking.Match;
 using UnityEngine.Networking.PlayerConnection;
 using UnityEngine.Networking.Types;
 
-public class NetworkHud : MonoBehaviour
+public class NetworkHud : NetworkManagerHUD
 {
-    NetworkManager m;
     // Start is called before the first frame update
     void Start()
     {
-        m = gameObject.GetComponent<NetworkManager>();
     }
 
     // Update is called once per frame
@@ -23,14 +21,13 @@ public class NetworkHud : MonoBehaviour
 
     public void Host()
     {
-        m.StartHost();
+
     }
     public void Join()
     {
-        m.StartClient();
+
     }
     public void ChangeIp(string ip)
     {
-        m.networkAddress = ip;
     }
 }

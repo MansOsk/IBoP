@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using GoogleARCore.Examples.AugmentedImage;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
+using Testscenes.AugmentedImage;
 
 /// <summary>
 /// Controller for AugmentedImage example.
@@ -40,11 +42,20 @@ public class ARNetworkController : ARController
 
     public override void ShowObject(AugmentedImage image, out ARVisualizer visualizer)
     {
-        visualizer = null;
         if (NetworkServer.active)
         {
-            base.ShowObject(image, out visualizer);
+            Anchor anchor = image.CreateAnchor(image.CenterPose);
+            visualizer = (ARVisualizer)NetworkManager.Instantiate(AugmentedImageVisualizerPrefab, anchor.transform);
+            visualizer.Image = image;
+            m_Visualizers.Add(image.DatabaseIndex, visualizer);
             NetworkServer.Spawn(visualizer.gameObject);
+        }
+        else
+        {
+            Anchor anchor = image.CreateAnchor(image.CenterPose);
+            visualizer = FindObjectOfType<ARVisualizer>();
+            visualizer.Image = image;
+            m_Visualizers.Add(image.DatabaseIndex, visualizer);
         }
     }
 }

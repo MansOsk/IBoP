@@ -1,7 +1,7 @@
 //-----------------------------------------------------------------------
 // <copyright file="ARCoreAndroidLifecycleManager.cs" company="Google">
 //
-// Copyright 2018 Google LLC. All Rights Reserved.
+// Copyright 2018 Google Inc. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -33,7 +33,6 @@ namespace GoogleARCoreInternal
     using AndroidImport = System.Runtime.InteropServices.DllImportAttribute;
     using IOSImport = GoogleARCoreInternal.DllImportNoop;
 #endif
-
 
     internal class ARCoreAndroidLifecycleManager : ILifecycleManager
     {
@@ -74,10 +73,6 @@ namespace GoogleARCoreInternal
 
         public event Action<bool> OnSessionSetEnabled;
 
-        public event Action<IntPtr, IntPtr> OnSetConfiguration;
-
-        public event Action OnResetInstance;
-
         public static ARCoreAndroidLifecycleManager Instance
         {
             get
@@ -89,8 +84,6 @@ namespace GoogleARCoreInternal
                     ARPrestoCallbackManager.Instance.EarlyUpdate += s_Instance._OnEarlyUpdate;
                     ARPrestoCallbackManager.Instance.BeforeResumeSession +=
                         s_Instance._OnBeforeResumeSession;
-                    ARPrestoCallbackManager.Instance.OnSetConfiguration +=
-                        s_Instance._SetSessionConfiguration;
 
                     ExperimentManager.Instance.Initialize();
                 }
@@ -169,16 +162,8 @@ namespace GoogleARCoreInternal
             ExternApi.ArPresto_reset();
         }
 
-        /// <summary>
-        /// Force reset the singleton instance to null. Should only be used in Unit Test.
-        /// </summary>
         internal static void ResetInstance()
         {
-            if (s_Instance != null && s_Instance.OnResetInstance != null)
-            {
-                s_Instance.OnResetInstance();
-            }
-
             s_Instance = null;
         }
 
@@ -294,7 +279,7 @@ namespace GoogleARCoreInternal
                             SessionComponent.SessionConfig);
                 }
 
-                _UpdateConfiguration(SessionComponent.SessionConfig);
+                _SetConfiguration(SessionComponent.SessionConfig);
             }
 
             _UpdateDisplayGeometry();
@@ -392,15 +377,15 @@ namespace GoogleARCoreInternal
 
             IntPtr frameHandle = IntPtr.Zero;
             ExternApi.ArPresto_getFrame(ref frameHandle);
+
+            int backgroundTextureId = ExternApi.ArCoreUnity_getBackgroundTextureId();
+
             if (frameHandle == IntPtr.Zero)
             {
                 // This prevents using a texture that has not been filled out by ARCore.
                 return;
             }
-
-            int backgroundTextureId = ExternApi.ArCoreUnity_getBackgroundTextureId();
-
-            if (backgroundTextureId == -1)
+            else if (backgroundTextureId == -1)
             {
                 return;
             }
@@ -478,30 +463,7 @@ namespace GoogleARCoreInternal
             return true;
         }
 
-        private void _SetSessionConfiguration(IntPtr sessionHandle, IntPtr configHandle)
-        {
-            if (configHandle == IntPtr.Zero)
-            {
-                Debug.LogWarning("Cannot set configuration for invalid configHanlde.");
-                return;
-            }
-
-            if (sessionHandle == IntPtr.Zero && !InstantPreviewManager.IsProvidingPlatform)
-            {
-                Debug.LogWarning("Cannot set configuration for invalid sessionHandle.");
-                return;
-            }
-
-            SessionConfigApi.UpdateApiConfigWithARCoreSessionConfig(
-                sessionHandle, configHandle, m_CachedConfig);
-
-            if (OnSetConfiguration != null)
-            {
-                OnSetConfiguration(sessionHandle, configHandle);
-            }
-        }
-
-        private void _UpdateConfiguration(ARCoreSessionConfig config)
+        private void _SetConfiguration(ARCoreSessionConfig config)
         {
             // There is no configuration to set.
             if (config == null)
@@ -512,15 +474,16 @@ namespace GoogleARCoreInternal
             // The configuration has not been updated.
             if (m_CachedConfig != null && config.Equals(m_CachedConfig) &&
                 (config.AugmentedImageDatabase == null ||
-                    !config.AugmentedImageDatabase.IsDirty) &&
+                 !config.AugmentedImageDatabase.IsDirty) &&
                 !ExperimentManager.Instance.IsConfigurationDirty)
             {
                 return;
             }
 
+            var prestoConfig = new ApiPrestoConfig(config);
+            ExternApi.ArPresto_setConfiguration(ref prestoConfig);
             m_CachedConfig = ScriptableObject.CreateInstance<ARCoreSessionConfig>();
             m_CachedConfig.CopyFrom(config);
-            ExternApi.ArPresto_setConfigurationDirty();
         }
 
         private void _UpdateDisplayGeometry()
@@ -574,6 +537,9 @@ namespace GoogleARCoreInternal
                 ApiPrestoDeviceCameraDirection cameraDirection);
 
             [AndroidImport(ApiConstants.ARPrestoApi)]
+            public static extern void ArPresto_setConfiguration(ref ApiPrestoConfig config);
+
+            [AndroidImport(ApiConstants.ARPrestoApi)]
             public static extern void ArPresto_setEnabled(bool isEnabled);
 
             [AndroidImport(ApiConstants.ARPrestoApi)]
@@ -584,9 +550,6 @@ namespace GoogleARCoreInternal
 
             [AndroidImport(ApiConstants.ARPrestoApi)]
             public static extern void ArPresto_update();
-
-            [AndroidImport(ApiConstants.ARPrestoApi)]
-            public static extern void ArPresto_setConfigurationDirty();
 
             [AndroidImport(ApiConstants.ARPrestoApi)]
             public static extern void ArPresto_reset();

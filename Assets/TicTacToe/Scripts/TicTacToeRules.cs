@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TicTacToeRules : GameState
+public class TicTacToeRules : BoardRules
 {
-    public List<Snap> Player1 = new List<Snap>(), Player2 = new List<Snap>();
     public int xStart, yStart, xEnd, yEnd, winLength, winner = -1;
     public GameObject grid;
     public Material red, blue, white;

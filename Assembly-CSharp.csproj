@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8A1EB00C-D0E7-DE8A-30EB-2DA10C6C3733}</ProjectGuid>
+    <ProjectGuid>{90ADE12C-F69A-A12A-164D-7A16845FB9F3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -116,32 +116,46 @@
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\AndroidPermissionsRequestResult.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\NativeSession.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiApkInstallationStatus.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiApkInstallStatusExtensions.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiArStatus.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiArStatusExtensions.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiAugmentedFaceMode.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiAugmentedFaceRegionType.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiAvailability.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiAvailabilityExtensions.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiCameraConfigFacingDirection.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiCameraConfigFacingDirectionExtensions.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiCameraConfigTargetFps.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiCameraFocusMode.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiCameraMetadata.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiCloudAnchorMode.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiCloudAnchorState.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiCloudAnchorStateExtensions.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiConstants.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiCoordinates2dType.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiDisplayUvCoords.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiDisplayUvCoordsExtensions.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiFeaturePointOrientationMode.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiFeaturePointOrientationModeExtensions.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiLightEstimateState.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiLightEstimateStateExtensions.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiLightEstimationMode.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiLightEstimationModeExtension.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiPlaneFindingMode.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiPlaneType.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiPlaneTypeExtensions.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiPoseData.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiPrestoConfig.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiPrestoDeviceCameraDirection.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiPrestoStatus.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiPrestoStatusExtensions.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiTextureDataType.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiTrackableType.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiTrackingFailureReason.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiTrackingFailureReasonExtensions.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiTrackingState.cs" />
-    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiTypeExtensions.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiTrackingStateExtensions.cs" />
+    <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiTrackingStateXPExtensions.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Types\ApiUpdateMode.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Wrappers\AnchorApi.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\Api\Wrappers\AugmentedFaceApi.cs" />
@@ -243,9 +257,10 @@
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\XPSession.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\XPSessionStatus.cs" />
     <Compile Include="Assets\ARCore\GoogleARCore\SDK\Scripts\XPTrackingState.cs" />
-    <Compile Include="Assets\fdsatesa.cs" />
+    <Compile Include="Assets\Board.cs" />
     <Compile Include="Assets\General\AR\Scripts\ARController.cs" />
     <Compile Include="Assets\General\AR\Scripts\ARVisualizer.cs" />
+    <Compile Include="Assets\General\AR\Scripts\BoardRules.cs" />
     <Compile Include="Assets\General\AR\Scripts\InactiveAtStart.cs" />
     <Compile Include="Assets\General\AR\Scripts\MoveObject.cs" />
     <Compile Include="Assets\General\AR\Scripts\Snap.cs" />
@@ -256,13 +271,16 @@
     <Compile Include="Assets\General\Network\Scripts\PositionUpdateScript.cs" />
     <Compile Include="Assets\General\Network\Scripts\SpawnOnEnter.cs" />
     <Compile Include="Assets\General\UI\Scripts\PopUp.cs" />
-    <Compile Include="Assets\SaveMe.cs" />
+    <Compile Include="Assets\Testing\Multiplayer\Resources\Scripts\ARNetworkJoinController.cs" />
+    <Compile Include="Assets\Testing\Multiplayer\Resources\Scripts\click.cs" />
+    <Compile Include="Assets\Testing\Multiplayer\Resources\Scripts\DontDestroyOnLoad.cs" />
     <Compile Include="Assets\Testing\Multiplayer\Resources\Scripts\NetworkCreate.cs" />
     <Compile Include="Assets\Testing\Multiplayer\Resources\Scripts\NetworkPopup.cs" />
-    <Compile Include="Assets\Testing\SaveSession\Load.cs" />
-    <Compile Include="Assets\Testing\SaveSession\Save.cs" />
     <Compile Include="Assets\TicTacToe\Scripts\LoadScene.cs" />
     <Compile Include="Assets\TicTacToe\Scripts\TicTacToeRules.cs" />
+    <Compile Include="Assets\Viking Game\Assets\Scripts\PopUpVikingGame.cs" />
+    <Compile Include="Assets\Viking Game\Assets\Scripts\SnapVikingGame.cs" />
+    <Compile Include="Assets\Viking Game\Assets\Scripts\vikingGameRules.cs" />
     <None Include="Assets\ARCore\GoogleARCore\Examples\Common\Materials\Shaders\PlaneGrid.shader" />
     <None Include="Assets\ARCore\GoogleARCore\Examples\Common\Materials\Shaders\MobileDiffuseWithLightEstimation.shader" />
     <None Include="Assets\ARCore\GoogleARCore\SDK\Materials\ARBackground.shader" />
@@ -271,20 +289,21 @@
     <None Include="Assets\ARCore\GoogleARCore\Examples\Common\Materials\Shaders\PointCloud.shader" />
     <None Include="Assets\ARCore\GoogleARCore\Examples\ComputerVision\Materials\EdgeDetectionBackground.shader" />
     <None Include="Assets\ARCore\GoogleARCore\Examples\Common\Materials\Shaders\MobileSpecularWithLightEstimation.shader" />
+    <None Include="Assets\ARCore\GoogleARCore\SDK\InstantPreview\Plugins\x86_64\arcore_instant_preview_unity_plugin.bundle\Contents\_CodeSignature\CodeResources.xml" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/John Walker/WeFucked/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/John Walker/MergeTest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/John Walker/WeFucked/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/John Walker/MergeTest/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/John Walker/WeFucked/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/John Walker/MergeTest/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/John Walker/WeFucked/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/John Walker/MergeTest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/John Walker/WeFucked/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/John Walker/MergeTest/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -491,16 +510,16 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.13f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>C:/Users/John Walker/WeFucked/Assets/ARCore/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
+      <HintPath>C:/Users/John Walker/MergeTest/Assets/ARCore/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/John Walker/WeFucked/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/John Walker/MergeTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/John Walker/WeFucked/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/John Walker/MergeTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/John Walker/WeFucked/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/John Walker/MergeTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.13f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

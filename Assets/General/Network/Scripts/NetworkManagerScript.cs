@@ -5,15 +5,18 @@ using UnityEngine.Networking;
 
 public class NetworkManagerScript : NetworkManager
 {
-    // Start is called before the first frame update
-    void Start()
+    public void Host()
     {
-        
+        StartHost();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetIP(string ip)
     {
-        
+        networkAddress = ip;
+    }
+
+    public void Join()
+    {
+        StartClient();
     }
 }

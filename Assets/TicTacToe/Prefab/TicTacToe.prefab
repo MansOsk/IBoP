@@ -108,8 +108,6 @@ GameObject:
   - component: {fileID: 1479454990145058377}
   - component: {fileID: 1479454990145058376}
   - component: {fileID: 1479454990145058374}
-  - component: {fileID: 5073620027455522335}
-  - component: {fileID: 319634737729850360}
   m_Layer: 0
   m_Name: Sphere1
   m_TagString: DragControlled
@@ -125,7 +123,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454990145058373}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.65, y: 0.1, z: 1.42}
+  m_LocalPosition: {x: -0.67, y: 0.1, z: 1.27}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -204,66 +202,11 @@ MonoBehaviour:
   SnapObjectList: {fileID: 0}
   SnapTo: 1
   size: 0.6666667
-  snapSpeed: 1.5
+  snapSpeed: 16
   offset: 0
   X: 0
   Y: 0
   Z: 0
---- !u!114 &5073620027455522335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454990145058373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
---- !u!114 &319634737729850360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454990145058373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 1
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 7
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
 --- !u!1 &1479454990194039512
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,8 +402,6 @@ GameObject:
   - component: {fileID: 1479454990274546838}
   - component: {fileID: 1479454990274546836}
   - component: {fileID: 1479454990274546835}
-  - component: {fileID: 7047013718104311124}
-  - component: {fileID: 4472691136697146717}
   m_Layer: 0
   m_Name: Cube1
   m_TagString: DragControlled
@@ -476,7 +417,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454990274546834}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.76, y: 0.1, z: -1.39}
+  m_LocalPosition: {x: -0.76, y: 0.1, z: -1.27}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -555,66 +496,11 @@ MonoBehaviour:
   SnapObjectList: {fileID: 0}
   SnapTo: 1
   size: 0.6666667
-  snapSpeed: 1.5
+  snapSpeed: 16
   offset: 0
   X: 0
   Y: 0
   Z: 0
---- !u!114 &7047013718104311124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454990274546834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
---- !u!114 &4472691136697146717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454990274546834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 1
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 7
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
 --- !u!1 &1479454990453666948
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,8 +514,6 @@ GameObject:
   - component: {fileID: 1479454990453666952}
   - component: {fileID: 1479454990453666951}
   - component: {fileID: 1479454990453666949}
-  - component: {fileID: 2411226293047653342}
-  - component: {fileID: 7266409013205371649}
   m_Layer: 0
   m_Name: Sphere3
   m_TagString: DragControlled
@@ -645,7 +529,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454990453666948}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.67, y: 0.1, z: 1.45}
+  m_LocalPosition: {x: 0.67, y: 0.1, z: 1.27}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -724,66 +608,11 @@ MonoBehaviour:
   SnapObjectList: {fileID: 0}
   SnapTo: 1
   size: 0.6666667
-  snapSpeed: 1.5
+  snapSpeed: 16
   offset: 0
   X: 0
   Y: 0
   Z: 0
---- !u!114 &2411226293047653342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454990453666948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
---- !u!114 &7266409013205371649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454990453666948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 1
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 7
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
 --- !u!1 &1479454990483407777
 GameObject:
   m_ObjectHideFlags: 0
@@ -797,8 +626,6 @@ GameObject:
   - component: {fileID: 1479454990483407781}
   - component: {fileID: 1479454990483407780}
   - component: {fileID: 1479454990483407778}
-  - component: {fileID: 1036919586417232203}
-  - component: {fileID: 8442725356051198389}
   m_Layer: 0
   m_Name: Cube3
   m_TagString: DragControlled
@@ -814,7 +641,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454990483407777}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.548, y: 0.1, z: -1.36}
+  m_LocalPosition: {x: 0.548, y: 0.1, z: -1.27}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -893,66 +720,11 @@ MonoBehaviour:
   SnapObjectList: {fileID: 0}
   SnapTo: 1
   size: 0.6666667
-  snapSpeed: 1.5
+  snapSpeed: 16
   offset: 0
   X: 0
   Y: 0
   Z: 0
---- !u!114 &1036919586417232203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454990483407777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
---- !u!114 &8442725356051198389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454990483407777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 1
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 7
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
 --- !u!1 &1479454991086242291
 GameObject:
   m_ObjectHideFlags: 0
@@ -964,11 +736,10 @@ GameObject:
   - component: {fileID: 1479454991086242292}
   - component: {fileID: 7294516297358155556}
   - component: {fileID: 2899061817135482990}
-  - component: {fileID: 8401993382666508396}
-  - component: {fileID: 6587462428139100041}
-  - component: {fileID: 1246542155817739918}
+  - component: {fileID: 4465659631719008230}
+  - component: {fileID: 1471191855752027523}
   m_Layer: 0
-  m_Name: TicTacToe
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -982,7 +753,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991086242291}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -29.229591, z: -0.0000036850508}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
   - {fileID: 1479454990000659426}
@@ -1002,7 +773,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991086242291}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 592497589c7114a4e92ad6371e2278fe, type: 3}
   m_Name: 
@@ -1015,22 +786,40 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991086242291}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceada30821473dd43a49e99485805725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manager: {fileID: 0}
---- !u!114 &8401993382666508396
+--- !u!114 &4465659631719008230
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991086242291}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8f4b01d61fbb0545a5fddd3d275f48a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3758f6ee8223f854eb4c527203b51219, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Snaps: []
+  XMax: 2147483647
+  XMin: -2147483648
+  YMax: 2147483647
+  YMin: -2147483648
+  ZMax: 2147483647
+  ZMin: -2147483648
+--- !u!114 &1471191855752027523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479454991086242291}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d92745722d2011c42906bd13310787eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player1:
@@ -1044,47 +833,13 @@ MonoBehaviour:
   xStart: -2
   yStart: -2
   xEnd: 2
-  yEnd: 2
+  yEnd: -432
   winLength: 3
   winner: -1
   grid: {fileID: 1479454990000659454}
   red: {fileID: 2100000, guid: 66063fb033c898545aecdf01330e7c82, type: 2}
   blue: {fileID: 2100000, guid: 30c50bf20c0fbbe44af4fcff3ffb68a2, type: 2}
-  white: {fileID: 2100000, guid: 3e572323a2b0bbd4e877225374890002, type: 2}
---- !u!114 &6587462428139100041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454991086242291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 114ecea63fdc4f942b3d0ce518cf187f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Snaps: []
-  XMax: 2
-  XMin: -2
-  YMax: 1
-  YMin: -1
-  ZMax: 3
-  ZMin: -3
---- !u!114 &1246542155817739918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454991086242291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98c78cee0adcc5c4790a343f5146e7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  State: {fileID: 8401993382666508396}
-  PopUps:
-  - {fileID: 5174157858111582641, guid: 9e3a0bdaa907fb9448fb4c37ca98a22d, type: 3}
+  white: {fileID: 2100000, guid: a7b71b6605de1c84d87d8c5f91b3f4a9, type: 2}
 --- !u!1 &1479454991101591201
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,8 +944,6 @@ GameObject:
   - component: {fileID: 1479454991210851127}
   - component: {fileID: 1479454991210851125}
   - component: {fileID: 1479454991210851124}
-  - component: {fileID: 4161298534209034174}
-  - component: {fileID: 601396262048978709}
   m_Layer: 0
   m_Name: Cube2
   m_TagString: DragControlled
@@ -1206,7 +959,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991210851123}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1, z: -1.42}
+  m_LocalPosition: {x: 0, y: 0.1, z: -1.27}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -1285,66 +1038,11 @@ MonoBehaviour:
   SnapObjectList: {fileID: 0}
   SnapTo: 1
   size: 0.6666667
-  snapSpeed: 1.5
+  snapSpeed: 16
   offset: 0
   X: 0
   Y: 0
   Z: 0
---- !u!114 &4161298534209034174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454991210851123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
---- !u!114 &601396262048978709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454991210851123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 1
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 7
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
 --- !u!1 &1479454991231508647
 GameObject:
   m_ObjectHideFlags: 0
@@ -1449,8 +1147,6 @@ GameObject:
   - component: {fileID: 1479454991544329884}
   - component: {fileID: 1479454991544329883}
   - component: {fileID: 1479454991544329881}
-  - component: {fileID: 3949831860000181341}
-  - component: {fileID: 3590319036005474669}
   m_Layer: 0
   m_Name: Sphere2
   m_TagString: DragControlled
@@ -1466,7 +1162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479454991544329880}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1, z: 1.39}
+  m_LocalPosition: {x: 0, y: 0.1, z: 1.27}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 1479454991086242292}
@@ -1545,63 +1241,8 @@ MonoBehaviour:
   SnapObjectList: {fileID: 0}
   SnapTo: 1
   size: 0.6666667
-  snapSpeed: 1.5
+  snapSpeed: 16
   offset: 0
   X: 0
   Y: 0
   Z: 0
---- !u!114 &3949831860000181341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454991544329880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 0
-    i1: 0
-    i2: 0
-    i3: 0
-    i4: 0
-    i5: 0
-    i6: 0
-    i7: 0
-    i8: 0
-    i9: 0
-    i10: 0
-    i11: 0
-    i12: 0
-    i13: 0
-    i14: 0
-    i15: 0
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
---- !u!114 &3590319036005474669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479454991544329880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 0
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 7
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1

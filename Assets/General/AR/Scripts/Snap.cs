@@ -17,7 +17,7 @@ public class Snap : MonoBehaviour
     const int s = 1;
     // Update is called once per frame
     public int X, Y, Z;
-    void Update()
+    protected virtual void Update()
     {
         // Snap
         if (Input.touchCount <= 0)
@@ -39,7 +39,7 @@ public class Snap : MonoBehaviour
             }
             Vector3 vec = new Vector3(X * size + offset, Y * size + offset, Z * size + offset);
             vec -= transform.localPosition;
-            vec /= snapSpeed; // Snap fart
+            vec *= snapSpeed; // Snap fart
 
             Vector3 trans = new Vector3( // skalar från local till world
                 vec.x * transform.localScale.x,

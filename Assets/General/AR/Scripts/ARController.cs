@@ -4,6 +4,7 @@ using GoogleARCore;
 using UnityEngine;
 using UnityEngine.UI;
 using GoogleARCore.Examples.AugmentedImage;
+using Testscenes.AugmentedImage;
 
 /// <summary>
 /// Controller for AugmentedImage example.
